@@ -123,3 +123,17 @@ function new_excerpt_more( $more ) {
 	return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+/**
+ * Custom PayPal button text
+ *
+ */
+add_filter( 'gettext', 'rb_custom_paypal_button_text', 20, 3 );
+function rb_custom_paypal_button_text( $translated_text, $text, $domain ) {
+   switch ( $translated_text ) {
+      case 'Proceed to PayPal' :
+         $translated_text = __( 'Proceed to Payment', 'woocommerce' );
+         break;
+   }
+   return $translated_text;
+}
