@@ -1,0 +1,642 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Bundles v4.8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-16 11:20:41+0000\n"
+"Last-Translator: the2020group <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/admin/class-wc-pb-admin.php:77
+#@ woocommerce-product-bundles
+msgid "Check to enable only a subset of the available variations."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:81
+#@ woocommerce-product-bundles
+msgid "Filter Variations"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:89
+#@ woocommerce-product-bundles
+msgid "Choose variations&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:124
+#@ woocommerce
+msgid "Any"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:189
+#@ woocommerce-product-bundles
+msgid "In effect for this bundle only. The available options are in sync with the filtering settings above. Always save any changes made above before configuring this section."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:193
+#@ woocommerce-product-bundles
+msgid "Override Default Selections"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:210
+#@ woocommerce
+msgid "No default"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:263
+#@ woocommerce-product-bundles
+msgid "Check this option to mark the bundled product as optional."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:267
+#@ woocommerce-product-bundles
+msgid "Optional"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:275
+#@ woocommerce-product-bundles
+msgid "Defines the quantity of this bundled product."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:278
+#@ woocommerce
+msgid "Quantity"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:287
+#@ woocommerce-product-bundles
+msgid "Discount applied to the regular price of this bundled product when Per-Item Pricing is active. Note: If a Discount is applied to a bundled product which has a sale price defined, the sale price will be overridden."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:291
+#@ woocommerce
+msgid "Discount %"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:297
+#@ woocommerce-product-bundles
+msgid "Hides this bundled product from the front-end. Not recommended for variable products, unless default attribute selections (or default selection overrides) have been set."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:299
+#@ woocommerce-product-bundles
+msgid "Visibility"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:303
+#@ woocommerce-product-bundles
+msgid "Visible"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:304
+#@ woocommerce-product-bundles
+msgid "Hidden"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:312
+#@ woocommerce-product-bundles
+msgid "Check this option to hide the thumbnail image of this bundled product."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:316
+#@ woocommerce-product-bundles
+msgid "Hide Thumbnail"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:323
+#@ woocommerce-product-bundles
+msgid "Check this option to override the default product title."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:327
+#@ woocommerce-product-bundles
+msgid "Override Title"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:334
+#@ woocommerce-composite-products
+msgid "Product Title:"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:344
+#@ woocommerce-product-bundles
+msgid "Check this option to override the default short product description."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:348
+#@ woocommerce-product-bundles
+msgid "Override Short Description"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:355
+#@ woocommerce-composite-products
+msgid "Product Short Description:"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:413
+#@ woocommerce-product-bundles
+msgid "Bundled Products"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:435
+#@ woocommerce
+msgid "Close all"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:436
+#@ woocommerce
+msgid "Expand all"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:458
+#: includes/admin/html-bundled-product-admin.php:15
+#@ woocommerce
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:459
+#: includes/admin/html-bundled-product-admin.php:16
+#@ woocommerce
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:486
+#: includes/admin/class-wc-pb-admin.php:490
+#@ woocommerce
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:496
+#@ woocommerce-product-bundles
+msgid "Add Product"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:512
+#@ woocommerce-product-bundles
+msgid "Note"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:513
+#@ default
+msgid "Use these settings to enable stock management at bundle level."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:513
+#@ woocommerce-product-bundles
+msgid "By default, the sale of a product within a bundle has the same effect on its stock as an individual sale. There are no separate inventory settings for bundled items. However, this pane can be used to enable stock management at bundle level. This can be very useful for allocating bundle stock quota, or for keeping track of bundled item sales."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:528
+#@ woocommerce-product-bundles
+msgid "Non-Bundled Shipping"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:529
+#@ woocommerce-product-bundles
+msgid "If your bundle consists of items that are assembled or packaged together, leave the box un-checked and just define the shipping properties of the product bundle below. If, however, the bundled items are shipped individually, their shipping properties must be retained. In this case, the box must be checked. 'Non-Bundled Shipping' should also be selected when the bundle consists of virtual items, which are not shipped."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:536
+#@ woocommerce-product-bundles
+msgid "Per-Item Pricing"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:537
+#@ woocommerce-product-bundles
+msgid "When enabled, the bundle will be priced per-item, based on standalone item prices and tax rates."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:587
+#@ woocommerce-product-bundles
+msgid "Please add at least one product to the bundle before publishing. To add products, click on the Bundled Products tab."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:644
+#, php-format
+#@ woocommerce-product-bundles
+msgid "'%s' (#%s) was not saved. Only one simple Subscription per Bundle is supported."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:662
+#, php-format
+#@ woocommerce-product-bundles
+msgid "'%s' (#%s) is sold individually and cannot be bundled more than once."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:716
+#, php-format
+#@ woocommerce-product-bundles
+msgid "'%s' (#%s) is sold individually and cannot be bundled with a quantity higher than 1."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:725
+#, php-format
+#@ woocommerce-product-bundles
+msgid "The quantity you entered for '%s%s' (#%s) was not valid and has been reset. Please enter a positive integer value."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:743
+#, php-format
+#@ woocommerce-product-bundles
+msgid "The discount value you entered for '%s%s' (#%s) was not valid and has been reset. Please enter a positive number between 0-100."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:775
+#@ woocommerce-product-bundles
+msgid "Please select at least one variation for each bundled product you want to filter."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:829
+#, php-format
+#@ woocommerce-product-bundles
+msgid "The '%s' default option that you selected for '%s%s' (#%s) is inconsistent with the set of active variations. Always double-check your preferences before saving, and always save any changes made to the variation filters before choosing new defaults."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:875
+#: includes/admin/class-wc-pb-admin.php:889
+#, php-format
+#@ woocommerce-product-bundles
+msgid "'%s%s' (#%s) cannot be hidden unless all default options of the product are defined."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:944
+#@ woocommerce-product-bundles
+msgid "Product bundle"
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:983
+#@ woocommerce-product-bundles
+msgid "The selected product cannot be bundled. Please select a simple product, a variable product, or a simple subscription."
+msgstr ""
+
+#: includes/admin/class-wc-pb-admin.php:987
+#@ woocommerce-product-bundles
+msgid "The selected product is invalid."
+msgstr ""
+
+#. translators: for quantity use %2$s
+#: includes/class-wc-bundled-item.php:879
+#, php-format
+#@ woocommerce-product-bundles
+msgid "%1$s <span class=\"bundled_item_price_quantity\">/ pc.</span>"
+msgstr ""
+
+#: includes/class-wc-pb-cart.php:124
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart because &quot;%s&quot; cannot be purchased at the moment."
+msgstr "&quot;%s&quot; cannot be added to the basket because &quot;%s&quot; cannot be purchased at the moment."
+
+#: includes/class-wc-pb-cart.php:166
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart. The selected variation of &quot;%s&quot; cannot be purchased."
+msgstr "&quot;%s&quot; cannot be added to the basket. The selected variation of &quot;%s&quot; cannot be purchased."
+
+#: includes/class-wc-pb-cart.php:175
+#: includes/class-wc-pb-cart.php:237
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart. Please choose &quot;%s&quot; options&hellip;"
+msgstr "&quot;%s&quot; cannot be added to the basket. Please choose &quot;%s&quot; options&hellip;"
+
+#: includes/class-wc-pb-cart.php:529
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart &mdash; only 1 &quot;%s&quot; may be purchased."
+msgstr "&quot;%s&quot; cannot be added to the basket &mdash; only 1 &quot;%s&quot; may be purchased."
+
+#: includes/class-wc-pb-cart.php:538
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart because the option selected for &quot;%s&quot; is out of stock."
+msgstr "&quot;%s&quot; cannot be added to the basket because the option selected for &quot;%s&quot; is out of stock."
+
+#: includes/class-wc-pb-cart.php:541
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart because &quot;%s&quot; is out of stock."
+msgstr "&quot;%s&quot; cannot be added to the basket because &quot;%s&quot; is out of stock."
+
+#: includes/class-wc-pb-cart.php:550
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart because the option selected for &quot;%s&quot; does not have enough stock (%s remaining)."
+msgstr "&quot;%s&quot; cannot be added to the basket because the option selected for &quot;%s&quot; does not have enough stock (%s remaining)."
+
+#: includes/class-wc-pb-cart.php:553
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart because there is not enough stock of &quot;%s&quot; (%s remaining)."
+msgstr "&quot;%s&quot; cannot be added to the basket because there is not enough stock of &quot;%s&quot; (%s remaining)."
+
+#: includes/class-wc-pb-cart.php:580
+#: includes/class-wc-pb-cart.php:594
+#@ woocommerce
+msgid "View Cart"
+msgstr ""
+
+#: includes/class-wc-pb-cart.php:581
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart because the option selected for &quot;%s&quot; does not have enough stock&mdash; we have %s in stock and you already have %s in your cart."
+msgstr "&quot;%s&quot; cannot be added to the basket because the option selected for &quot;%s&quot; does not have enough stock&mdash; we have %s in stock and you already have %s in your basket."
+
+#: includes/class-wc-pb-cart.php:595
+#, php-format
+#@ woocommerce-product-bundles
+msgid "&quot;%s&quot; cannot be added to the cart because there is not enough stock of &quot;%s&quot; &mdash; we have %s in stock and you already have %s in your cart."
+msgstr "&quot;%s&quot; cannot be added to the basket because there is not enough stock of &quot;%s&quot; &mdash; we have %s in stock and you already have %s in your basket."
+
+#: includes/class-wc-pb-cart.php:777
+#: includes/class-wc-pb-order.php:278
+#@ woocommerce-product-bundles
+msgid "Included with"
+msgstr ""
+
+#: includes/class-wc-pb-cart.php:1019
+#: includes/class-wc-pb-display.php:267
+#: includes/class-wc-pb-order.php:113
+#@ woocommerce-product-bundles
+msgid "Subtotal"
+msgstr ""
+
+#: includes/class-wc-pb-compatibility.php:246
+#: includes/class-wc-pb-compatibility.php:305
+#@ woocommerce-product-bundles
+msgid "Sorry, this item cannot be purchased at the moment."
+msgstr ""
+
+#: includes/class-wc-pb-compatibility.php:385
+#, php-format
+#@ woocommerce-product-bundles
+msgid "The configuration you have selected cannot be added to the cart. &quot;%s&quot; cannot be purchased."
+msgstr "The configuration you have selected cannot be added to the basket. &quot;%s&quot; cannot be purchased."
+
+#: includes/class-wc-pb-display.php:265
+#: includes/class-wc-product-bundle.php:870
+#: includes/class-wc-product-bundle.php:879
+#@ woocommerce
+msgid "Free!"
+msgstr ""
+
+#: includes/class-wc-pb-display.php:266
+#@ woocommerce-product-bundles
+msgid "Total"
+msgstr ""
+
+#: includes/class-wc-pb-display.php:268
+#: includes/class-wc-pb-helpers.php:159
+#: includes/class-wc-pb-helpers.php:161
+#: includes/class-wc-product-bundle.php:1034
+#@ woocommerce-product-bundles
+msgid "Insufficient stock"
+msgstr ""
+
+#: includes/class-wc-pb-display.php:269
+#: includes/class-wc-pb-helpers.php:143
+#: includes/class-wc-pb-helpers.php:145
+#: includes/class-wc-product-bundle.php:1039
+#@ woocommerce-product-bundles
+#@ woocommerce
+msgid "Available on backorder"
+msgstr ""
+
+#: includes/class-wc-pb-display.php:270
+#: includes/class-wc-pb-display.php:271
+#, php-format
+#@ woocommerce-product-bundles
+msgid "<p class=\"price\"><span class=\"bundle_error\">%s</span></p>"
+msgstr ""
+
+#: includes/class-wc-pb-display.php:270
+#@ woocommerce-product-bundles
+msgid "To continue, please choose product options&hellip;"
+msgstr ""
+
+#: includes/class-wc-pb-display.php:271
+#@ woocommerce-product-bundles
+msgid "Sorry, this product cannot be purchased at the moment."
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:114
+#: includes/class-wc-pb-helpers.php:125
+#: includes/class-wc-pb-helpers.php:151
+#@ woocommerce
+msgid "In stock"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:119
+#, php-format
+#@ woocommerce
+msgid "Only %s left in stock"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:122
+#: includes/class-wc-pb-helpers.php:133
+#@ woocommerce
+msgid "(can be backordered)"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:130
+#, php-format
+#@ woocommerce
+msgid "%s in stock"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:145
+#: includes/class-wc-pb-helpers.php:161
+#, php-format
+#@ woocommerce-product-bundles
+msgid "(only %s left in stock)"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:167
+#: includes/class-wc-pb-helpers.php:174
+#@ woocommerce
+msgid "Out of stock"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:349
+#: includes/class-wc-pb-helpers.php:364
+#@ woocommerce-product-bundles
+msgid "*"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:349
+#@ woocommerce-product-bundles
+msgid "Accurate pricing info available in cart."
+msgstr "Accurate pricing info available in basket."
+
+#: includes/class-wc-pb-helpers.php:489
+#: includes/class-wc-pb-helpers.php:514
+#, php-format
+#@ woocommerce-product-bundles
+msgid "(SKU: %s)"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:505
+#: includes/class-wc-pb-helpers.php:534
+#, php-format
+#@ product title followed by suffix
+#@ product title followed by sku
+msgctxt "woocommerce-product-bundles"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:532
+#, php-format
+#@ product title followed by sku and meta
+msgctxt "woocommerce-product-bundles"
+msgid "%1$s &mdash; %2$s %3$s"
+msgstr ""
+
+#: includes/class-wc-pb-helpers.php:536
+#, php-format
+#@ product title followed by meta
+msgctxt "woocommerce-product-bundles"
+msgid "%1$s &mdash; %2$s"
+msgstr ""
+
+#: includes/class-wc-pb-order.php:208
+#, php-format
+#@ woocommerce-product-bundles
+msgid "%1$s, %2$s bundled"
+msgstr ""
+
+#: includes/class-wc-product-bundle.php:725
+#@ woocommerce-subscriptions
+msgid "now"
+msgstr ""
+
+#: includes/class-wc-product-bundle.php:799
+#: includes/class-wc-product-bundle.php:808
+#, php-format
+#@ woocommerce
+msgctxt "Price range: from-to"
+msgid "%1$s&ndash;%2$s"
+msgstr ""
+
+#: includes/class-wc-product-bundle.php:812
+#: includes/class-wc-product-bundle.php:814
+#, php-format
+#@ woocommerce-product-bundles
+msgctxt "Price range: from"
+msgid "%1$s%2$s"
+msgstr ""
+
+#: includes/class-wc-product-bundle.php:1210
+#@ woocommerce
+msgid "Read more"
+msgstr ""
+
+#: includes/class-wc-product-bundle.php:1216
+#@ woocommerce
+msgid "Select options"
+msgstr ""
+
+#: includes/class-wc-product-bundle.php:1218
+#@ woocommerce
+msgid "View contents"
+msgstr ""
+
+#: includes/class-wc-product-bundle.php:1220
+#@ woocommerce
+msgid "Add to cart"
+msgstr ""
+
+#: templates/composited-product/bundle-product.php:18
+#@ woocommerce-composite-products
+msgid "Your selection:"
+msgstr ""
+
+#: templates/composited-product/bundle-product.php:34
+#: templates/composited-product/bundle-product.php:186
+#: templates/single-product/add-to-cart/bundle.php:155
+#@ woocommerce-composite-products
+#@ woocommerce
+msgid "Clear selection"
+msgstr ""
+
+#: templates/composited-product/bundle-product.php:152
+#: templates/single-product/add-to-cart/bundle.php:117
+#@ woocommerce
+msgid "Choose an option"
+msgstr ""
+
+#: templates/composited-product/bundle-product.php:214
+#: templates/single-product/add-to-cart/bundle.php:181
+#@ woocommerce-product-bundles
+msgid "Sorry, this item is not available at the moment."
+msgstr ""
+
+#: templates/single-product/bundled-item-optional.php:18
+#, php-format
+#@ woocommerce-product-bundles
+msgid "Add &quot;%1$s%2$s&quot; for"
+msgstr ""
+
+#: templates/single-product/bundled-item-optional.php:20
+#, php-format
+#@ woocommerce-product-bundles
+msgid "Add &quot;%1$s%2$s&quot;"
+msgstr ""
+
+#: templates/single-product/bundled-item-title.php:17
+#@ woocommerce-product-bundles
+msgid " &ndash; optional"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: woocommerce-product-bundles.php:0
+#@ woocommerce-product-bundles
+msgid "WooCommerce Product Bundles"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-product-bundles.php:0
+#@ woocommerce-product-bundles
+msgid "http://www.woothemes.com/products/product-bundles/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: woocommerce-product-bundles.php:0
+#@ woocommerce-product-bundles
+msgid "WooCommerce extension for creating simple product bundles, kits and assemblies."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: woocommerce-product-bundles.php:0
+#@ woocommerce-product-bundles
+msgid "SomewhereWarm"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-product-bundles.php:0
+#@ woocommerce-product-bundles
+msgid "http://www.somewherewarm.net/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: woocommerce-product-bundles.php:0
+#@ woocommerce-product-bundles
+msgid "4.8.0"
+msgstr ""
+
+#: woocommerce-product-bundles.php:147
+#, php-format
+#@ woocommerce-product-bundles
+msgid "WooCommerce Product Bundles requires at least WooCommerce %s in order to function. Please upgrade WooCommerce."
+msgstr ""

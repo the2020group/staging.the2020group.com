@@ -1,0 +1,334 @@
+
+.acca-title{
+	color: $grey;
+}
+
+.acca-head{
+	background: $cskydark;
+	padding: 0;
+	
+	.intro-copy{
+		
+		.acca-logo{
+			float: left;
+			margin: 0 1rem 1rem 0;
+		}
+		
+		p{
+			color: $grey;
+		}
+		
+		.intro{
+			font-size: 1rem;
+		}
+	}
+	
+	.webinar{
+		width: 100%;
+	}
+	
+	.download{
+		text-decoration: none;
+		color: $grey;
+		text-align: center;
+		display: block;
+		
+		.icon{
+			color: lighten($grey, 15%);
+		}
+		
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+
+#acca-webinars{
+	padding: 2rem 0;
+}
+
+#packages{
+	padding: 1rem 0;
+	
+	#acca-table{
+		width: 100%;
+		background: #ffffff;
+		border-spacing: 0;
+		
+		.tab-head{
+			background: $acca;
+			color: $white;
+			text-align: left !important;
+		}
+		
+		.tab-sub-head{
+			background:$cskydark;
+		}
+		
+		tr{
+			
+			td{
+				padding: 0.5rem;
+				text-align: center;
+				font-size: 0.8rem;
+				
+				&:first-child{
+					text-align: left;
+				}
+			}
+		}
+	}
+	
+	.book-panel{
+		background: #57c1ae;
+		
+		h3{
+			margin: 0;
+			background: #50b3a1;
+			color: $white;
+			padding: 1rem;
+		}
+		
+		.participants{
+			margin:1.5rem;
+			padding: 0;
+			
+			.participant{
+				list-style-type: none;
+				
+				h5{
+					margin: 0 0 1rem 0;
+					font-size: 1.4rem;
+					color: $white;
+				}
+				
+				p{
+					margin: 0;
+					color: $white;
+					font-size: 1rem;
+					
+					&.sub-text{
+						margin-top: 0.5rem;
+						font-size: 0.8rem;
+					}
+				}
+				
+				a{
+					border: none;
+					width: 100%;
+				}
+				
+				&:first-child{
+					border-bottom: 2px solid #50b3a1;
+					padding-bottom: 1.5rem;
+					margin-bottom: 1.5rem;
+				}
+			}
+		}
+	}
+}
+
+#accaTabs{
+	padding: 0;
+	
+	.tab-title{
+		
+		a{
+			background: #cbd8d8;
+			position: relative;
+			text-decoration: none;
+			font-size: 0.8rem;
+			
+			&:after{
+				content: '\e610';
+				font-family: 'icomoon';
+	      speak: none;
+	      font-style: normal;
+	      font-weight: normal;
+	      font-variant: normal;
+	      text-transform: none;
+				position: absolute;
+	      top:50%;
+	      margin-top:-8px;
+	      right:17px;
+	      color: #acb6b6;
+	      
+	      /* Better Font Rendering =========== */
+	      -webkit-font-smoothing: antialiased;
+	      -moz-osx-font-smoothing: grayscale;
+			}
+		}
+		
+		&.active a{
+			background: $cskydark;
+		}
+	}
+}
+
+#accaTabsContent{
+	width: 100%;
+	
+	.content{
+		padding: 1rem;
+		background: $cskydark;
+		
+		h3{
+			margin: 0;
+			font-size: 1rem;
+		}
+		
+		.gen-btn{
+			margin-bottom: 1rem;
+		}
+		
+		.web-info{
+			background: #cbd8d8;
+			
+			h5{
+				background: #b4c3c3;
+				padding: 0.5rem;
+				margin: 0;
+				font-size: 1rem;
+			}
+			
+			ul{
+				margin: 0;
+				padding: 0.5rem 1rem;
+				
+				li{
+					list-style-type: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media (min-width: $screen-sm-min) {
+	
+	.acca-head{
+		padding: 4rem 0;
+		margin-bottom: 2rem;
+		
+		.intro-copy{
+			width: 80%;
+			
+			.acca-logo{
+				margin: 0 2.5rem 2.5rem 0;
+			}
+			
+			p{
+				font-size: 1.2rem;
+				line-height: 1.5;
+			}
+			
+			.intro{
+				font-size: 1.5rem;
+			}
+		}
+		
+		.webinar-img{
+			text-align: center;
+		}
+		
+		.webinar{
+			width: inherit;
+			max-width: auto;
+		}
+		
+		.download{
+			
+		}
+	}
+	
+	#packages{
+		padding: 3rem 0;
+		
+		#acca-table{
+			width: 100%;
+			background: #ffffff;
+			
+			tr{
+				
+				td{
+					padding: 1.1rem;
+					font-size: 1rem;
+				}
+				&.tab-head td{
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+	
+	#accaTabs{
+		
+		.tab-title{
+			
+			a{
+				font-size: 1rem;
+				padding: 1rem 2.5rem 1rem 1rem;
+				border-top: 1px solid #f1f5f5;
+				border-bottom: 1px solid #b3c4c4;
+				
+				&:hover{
+					background: darken($cskydark, 15%);
+				}
+				
+				
+				&:after{
+					content: '\e618';
+				}
+			}
+			
+			&.active a:hover{
+				background: $cskydark;				
+			}
+		}
+	}
+	
+	#accaTabsContent{
+		float: left;
+		width: 80%;
+		margin-bottom: 3rem;
+		
+		.content{
+			padding: 3rem;
+			
+			h3{
+				font-size: 1.4rem;
+			}
+			
+			.gen-btn{
+				margin-bottom: 0;
+			}
+			
+			.web-info{
+				
+				h5{
+					padding: 0.5rem 0.8rem;
+					margin: 0;
+					font-size: 1.2rem;
+				}
+				
+				ul{
+					margin: 0;
+					padding: 1.5rem;
+					
+					li{
+						list-style-type: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) {
+	
+}
+
+@media (min-width: $screen-lg-min) {
+	
+}

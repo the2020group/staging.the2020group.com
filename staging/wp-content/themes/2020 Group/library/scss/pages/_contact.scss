@@ -1,0 +1,184 @@
+.offices-content {
+  .tabs-content {
+    padding:12px;
+    
+    .content {
+      background: $white;
+      padding:0;
+    }    
+  }
+}
+
+.office-item {
+  padding: 25px;
+  position: relative;
+  border-bottom:2px solid $cskydark;
+    
+  h4 {
+    @include font-size(18px);
+    line-height: 1;
+    margin: 0;
+    padding: 0 85px 0 0; 
+    color: $text;
+  }
+  
+  p{
+	  color: $text;
+	  font-size: 1.1rem;
+  }
+  
+  .office-location {
+    margin: 0;
+    padding: 0 85px 0 0;
+  }
+  
+  .office-img {
+    position: absolute;
+    top:20px;
+    right:20px;
+    max-width:75px;
+  }
+  
+  .iconListing {
+    margin-bottom: 15px;
+    a {
+      display: inline-block;
+    }
+  }
+}
+
+.office-subcontacts {
+ 
+  .officeContact {
+    border-bottom:2px solid $cskydark;
+    .item {
+      padding:20px;
+      h4 {
+        line-height: 1.2;
+        margin:0 0 10px 0;
+        padding:0;
+        color: $text;
+      }
+      .iconListing {
+        margin:0;
+        a {
+          display: block;
+          word-break: break-all;
+          line-height: 1;
+        }
+      }
+    }
+    
+  }
+}
+
+.office-sublist {
+
+  .office-item {
+    //border:12px solid $cskydark;
+		//@include border-radius(3px);
+    //margin: 0 0 20px 0;
+    background: lighten($cskydark, 5%);
+    margin-bottom: 5px;
+  }
+  
+  .column:last-child{
+	  
+	  .office-item{
+		  margin-bottom: 0;
+	  }
+  }
+  
+  .column:nth-child(2n+2) {
+    .office-item {
+      //margin-right: 0;
+    }
+  }
+
+}
+
+/* Sidebar contact form */
+.side-contact {
+	background: $cskydark url(../images/general/top-corner.png) right top no-repeat;
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+	
+	.gform_wrapper {
+  	
+  	.top_label {
+    	.medium {
+      	width:100%;
+    	}
+    }
+    
+    .gform_title {
+      border-bottom:1px solid $border-color;
+      padding-bottom:2rem;
+    }
+    
+    .gform_description {
+      ul {
+        list-style: disc;
+        padding-left:1.1em;
+        
+        li {
+          list-style: disc!important;
+          line-height: 1.1;
+          padding-left:0;
+          margin:0 0 10px 0;
+        }
+      }
+    }
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+  
+}
+
+@media (min-width: $screen-md-min) {
+  
+  
+  .office-subcontacts {
+   
+    .officeContact {
+      border-right:2px solid $cskydark;
+      .item {
+        .iconListing {
+          a {
+            display: inline-block;
+          }
+        }
+      }
+      
+      &:nth-child(2n+2) {
+       border-right:0;
+      }
+      
+      &:last-child {
+        border-right:1;
+        float:left;
+      }
+      
+    }
+  }
+  
+  .office-sublist {
+  
+    .office-item {
+      margin: 10px;
+    }
+    
+    .column:nth-child(2n+2) {
+      .office-item {
+        //margin-left: 10px;
+      }
+    }
+  
+  }
+  
+}
+
+@media (min-width: $screen-lg-min) {
+  
+}

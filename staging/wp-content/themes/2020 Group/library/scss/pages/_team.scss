@@ -1,0 +1,224 @@
+
+
+.team-wrap{
+	background: url(../images/general/top-corner.png) right top no-repeat $white;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid darken($white, 20%);
+	@include border-radius(0 0 3px 3px);
+
+	.team-header{
+		border-bottom: 1px solid $lgrey;
+
+		h1{
+			padding-bottom: 1.6rem;
+			line-height: 2;
+			font-weight: 600;
+			color: $cdblue;
+			font-size: 1.2rem;
+			padding: 0;
+			margin: 0;
+
+			/*
+&:after{
+				content: '';
+				display: block;
+				clear: both;
+			}
+*/
+		}
+
+		.team-logo{
+			text-align: left;
+
+			img{
+				padding-bottom: 1rem;
+			}
+		}
+	}
+
+	#teamTabs{
+
+		dd{
+			text-align: left;
+			line-height: 1;
+
+			a{
+				font-size: 0.8rem;
+				padding: 0.4rem 0 0.4rem 0.4rem;
+				background: #fff;
+				border-top:3px solid $cskydark;
+				border-right:3px solid $cskydark;
+				border-left:3px solid $cskydark;
+			}
+			&:hover {
+				a {
+					background-color: $csky;
+				}
+			}
+		}
+		dd.active {
+			a {
+				background-color: $cskydark;
+			}
+		}
+	}
+
+
+
+	.team-content{
+
+		#teamTabContent{
+
+			.content{
+				padding: 0;
+
+				.member-block{
+					background: $white;
+					padding: 0.5rem;
+					margin-bottom: 1rem;
+					border-bottom: 1px solid darken($white, 20%);
+					@include border-radius(3px);
+					min-height:34.5rem;
+
+					img{
+						width: 100%;
+					}
+
+					.team-detail-wrap{
+						padding: 1rem 0.5rem 0.5rem 0.5rem;
+
+						h3, h4{
+							margin: 0;
+							line-height: 1;
+						}
+
+						h3{
+							font-size: 1.4rem;
+							color: lighten($grey, 10%);
+						}
+
+						h4{
+							font-size: 1.1rem;
+							color: #a1a1a1;
+							font-weight: 400;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.member-block-pop{
+	background: $cskydark;
+	max-width: 900px;
+	padding: 0.5rem;
+
+	.profile-image{
+		border: 10px solid $white;
+		@include border-radius(10px);
+		margin-bottom: 0.5rem;
+	}
+
+	.team-pop-wrap{
+		background: $white;
+		padding: 1rem;
+
+		h3, h4{
+			margin: 0;
+			line-height: 1;
+		}
+
+		h3{
+			font-size: 1.4rem;
+			color: lighten($grey, 10%);
+		}
+
+		h4{
+			font-size: 1.1rem;
+			color: #a1a1a1;
+			font-weight: 400;
+		}
+	}
+}
+
+
+@media (min-width: $screen-md-min) {
+
+	.team-wrap{
+		padding: 2.5rem;
+		margin-bottom: 4rem;
+
+		.team-header{
+			margin-bottom: 2rem;
+
+			.team-breadcrumbs{
+				margin-bottom: 1rem;
+			}
+
+			h1{
+				padding-bottom: 1.6rem;
+				line-height: 1;
+				padding: 0.3rem 0 0 0;
+				font-weight: 600;
+				color: $cdblue;
+				font-size: 2rem;
+			}
+
+			.team-logo{
+				text-align: right;
+			}
+		}
+
+		#teamTabs{
+
+			dd{
+				text-align: center;
+				width: auto;
+				padding-right: 1rem;
+
+				a{
+					font-size: 1rem;
+					padding: 1.2rem;
+				}
+			}
+		}
+
+		.team-content{
+
+			#teamTabContent{
+
+				.content{
+
+					.member-block{
+						padding: 0.5rem;
+						margin-bottom: 2rem;
+
+						.team-detail-wrap{
+							padding: 2rem 1rem 1rem 1rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.member-block-pop{
+
+		.team-pop-wrap{
+			padding: 2rem;
+		}
+	}
+}
+
+
+@media (min-width: $screen-lg-min) {
+
+}
+
+
+
+
+
+

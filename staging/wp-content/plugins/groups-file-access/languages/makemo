@@ -1,0 +1,3 @@
+#!/bin/sh
+# Example for de_DE
+msgfmt -o groups-file-access-de_DE.mo groups-file-access-de_DE.po

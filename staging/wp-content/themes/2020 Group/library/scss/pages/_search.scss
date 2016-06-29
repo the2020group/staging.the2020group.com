@@ -1,0 +1,47 @@
+
+#outer-wrap{
+
+	.search-results-page{
+		background: url('../images/general/top-corner.png') right top no-repeat $white;
+		padding: 1rem;
+		border-bottom: 2px solid darken($white, 20%);
+		@include border-radius(3px);
+
+		.archive-title{
+			margin: 0;
+			padding-bottom: 1rem;
+			border-bottom: 1px solid $lgrey;
+			&.persona-title {
+
+				font-size: 1.5rem;
+				color: $cdblue;
+			}
+		}
+
+
+		.page{
+			background: transparent;
+			padding: 0;
+			margin: 0;
+		}
+
+		.search-result{
+			border-bottom: 1px solid $lgrey;
+			background: transparent;
+			margin-bottom: 2rem;
+			padding-bottom: 2rem;
+
+				a{
+					color: $grey;
+					text-decoration: underline;
+
+					&:hover{
+						text-decoration: none;
+					}
+				}
+
+		}
+	}
+}
+
+

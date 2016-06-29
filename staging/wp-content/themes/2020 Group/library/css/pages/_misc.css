@@ -1,0 +1,14 @@
+#my-personal-details #profilePicture { width:1px;height:1px;overflow:hidden;opacity:0; }
+#my-personal-details .profile-image { position:relative; }
+#my-personal-details .profile-image:before { content:' ';display:block;position:absolute;top:0;left:0;width:100%;height:125px;background:url('../../images/general/ajax-loader-blue.gif') center no-repeat #e2ecec;opacity:0; transition:opacity,0.2s;display:none; }
+#my-personal-details .profile-image.loading:before { opacity:0.6;display:block; }
+#subscriptions a { color:#000; text-decoration:none; font-weight:bold; }
+#subscriptions a:hover { color:#f16248; }
+#subscriptions .woocommerce table.shop_table thead { left:auto; position:relative; }
+.page-template-page-persona .hideContent { display:none; }
+.page-template-page-persona .archive-title { padding-top:1rem; cursor:pointer }
+.page-template-page-persona .search-results-page .archive-title:first-child { padding-top:0 }
+.page-template-page-persona .search-results-page .hide-article { display:none; }
+.page-template-page-persona .archive-title.show:after{ content:'\e613'; font-family:'icomoon'; }
+.page-template-page-persona .archive-title:after{ content:'\e619'; font-family:'icomoon'; }
+.page-template-page-persona .archive-title:after{ display:block;float:right;opacity:0.5; }

@@ -1,0 +1,82 @@
+
+#search-popout{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 8000;
+	background: rgba(59, 34, 49, 0.9);
+	display: none;
+
+	.search-content{
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		height: 250px;
+		margin-top: -125px;
+
+		form#searchform{
+
+			.screen-reader-text{
+				font-size: 1.6rem;
+				color: $white;
+				font-weight: 600;
+				margin-bottom: 1rem;
+			}
+
+			#s{
+				border: none;
+				padding: 1rem;
+				font-size: 1.2rem;
+        height: auto;
+				@include transition(all, 0.2s, ease-in-out);
+
+				&:focus{
+					background: #eceed0;
+				}
+			}
+
+			#searchsubmit{
+				font-family: $body-font;
+				font-size: 1.4rem;
+				color: $white;
+				background: lighten($cplum, 10%);
+				padding: 0.8rem 1.7rem;
+				border: none;
+				cursor: pointer;
+				@include transition(all, 0.2s, ease-in-out);
+				@include border-radius(3px);
+
+				&:hover{
+					background: darken($cplum, 10%);
+				}
+			}
+		}
+
+		.search-close{
+			display: inline-block;
+			color: $white;
+			font-weight: 600;
+
+			background: url(../images/admin-icons/close.png) right center no-repeat;
+			text-decoration: none !important;
+			position: absolute;
+			top: 1px;
+			right: 20px;
+			width: 100px;
+			height: 36px;
+			cursor: pointer;
+
+			&:before{
+				content:'Close';
+				margin-left: 5px;
+				font-size: 1.6rem;
+				color: $white;
+				line-height: 36px;
+			}
+		}
+	}
+}

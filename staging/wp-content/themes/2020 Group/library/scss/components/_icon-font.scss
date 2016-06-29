@@ -1,0 +1,281 @@
+$icomoon-font-path: "../fonts" !default;
+
+$icon-dash-webinars: "\e624";
+$icon-audio: "\e625";
+$icon-consulting: "\e61f";
+$icon-workshops: "\e620";
+$icon-knowledge: "\e621";
+$icon-webinars: "\e622";
+$icon-conferences: "\e623";
+$icon-lightbulb: "\e61e";
+$icon-download: "\e61d";
+$icon-telephone: "\e61b";
+$icon-letter: "\e61c";
+$icon-down-arrow: "\e610";
+$icon-down-pointer: "\e613";
+$icon-left-arrow: "\e614";
+$icon-left-pointer: "\e616";
+$icon-right-arrow: "\e618";
+$icon-right-pointer: "\e619";
+$icon-trophy: "\e61a";
+$icon-search: "\e617";
+$icon-plus: "\e615";
+$icon-remove: "\e612";
+$icon-check: "\e611";
+$icon-edit-pen: "\e60e";
+$icon-eye: "\e60f";
+$icon-records: "\e607";
+$icon-dashbasket: "\e608";
+$icon-tools: "\e609";
+$icon-recommended: "\e60a";
+$icon-newsletters: "\e60b";
+$icon-events: "\e60c";
+$icon-user: "\e60d";
+$icon-basket: "\e604";
+$icon-dash: "\e605";
+$icon-help: "\e606";
+$icon-linkedin: "\e603";
+$icon-stats-bars: "\eb87";
+$icon-sphere: "\ec8e";
+$icon-sphere2: "\ec8f";
+$icon-googleplus: "\e600";
+$icon-twitter: "\e602";
+$icon-facebook: "\e601";
+$icon-youtube: "\e900";
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('#{$icomoon-font-path}/icomoon.eot?7xpd9o');
+    src:    url('#{$icomoon-font-path}/icomoon.eot?7xpd9o#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/icomoon.ttf?7xpd9o') format('truetype'),
+        url('#{$icomoon-font-path}/icomoon.woff?7xpd9o') format('woff'),
+        url('#{$icomoon-font-path}/icomoon.svg?7xpd9o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dash-webinars {
+    &:before {
+        content: $icon-dash-webinars;
+    }
+}
+.icon-audio {
+    &:before {
+        content: $icon-audio;
+    }
+}
+.icon-consulting {
+    &:before {
+        content: $icon-consulting;
+    }
+}
+.icon-workshops {
+    &:before {
+        content: $icon-workshops;
+    }
+}
+.icon-knowledge {
+    &:before {
+        content: $icon-knowledge;
+    }
+}
+.icon-webinars {
+    &:before {
+        content: $icon-webinars;
+    }
+}
+.icon-conferences {
+    &:before {
+        content: $icon-conferences;
+    }
+}
+.icon-lightbulb {
+    &:before {
+        content: $icon-lightbulb;
+    }
+}
+.icon-download {
+    &:before {
+        content: $icon-download;
+    }
+}
+.icon-telephone {
+    &:before {
+        content: $icon-telephone;
+    }
+}
+.icon-letter {
+    &:before {
+        content: $icon-letter;
+    }
+}
+.icon-down-arrow {
+    &:before {
+        content: $icon-down-arrow;
+    }
+}
+.icon-down-pointer {
+    &:before {
+        content: $icon-down-pointer;
+    }
+}
+.icon-left-arrow {
+    &:before {
+        content: $icon-left-arrow;
+    }
+}
+.icon-left-pointer {
+    &:before {
+        content: $icon-left-pointer;
+    }
+}
+.icon-right-arrow {
+    &:before {
+        content: $icon-right-arrow;
+    }
+}
+.icon-right-pointer {
+    &:before {
+        content: $icon-right-pointer;
+    }
+}
+.icon-trophy {
+    &:before {
+        content: $icon-trophy;
+    }
+}
+.icon-search {
+    &:before {
+        content: $icon-search;
+    }
+}
+.icon-plus {
+    &:before {
+        content: $icon-plus;
+    }
+}
+.icon-remove {
+    &:before {
+        content: $icon-remove;
+    }
+}
+.icon-check {
+    &:before {
+        content: $icon-check;
+    }
+}
+.icon-edit-pen {
+    &:before {
+        content: $icon-edit-pen;
+    }
+}
+.icon-eye {
+    &:before {
+        content: $icon-eye;
+    }
+}
+.icon-records {
+    &:before {
+        content: $icon-records;
+    }
+}
+.icon-dashbasket {
+    &:before {
+        content: $icon-dashbasket;
+    }
+}
+.icon-tools {
+    &:before {
+        content: $icon-tools;
+    }
+}
+.icon-recommended {
+    &:before {
+        content: $icon-recommended;
+    }
+}
+.icon-newsletters {
+    &:before {
+        content: $icon-newsletters;
+    }
+}
+.icon-events {
+    &:before {
+        content: $icon-events;
+    }
+}
+.icon-user {
+    &:before {
+        content: $icon-user;
+    }
+}
+.icon-basket {
+    &:before {
+        content: $icon-basket;
+    }
+}
+.icon-dash {
+    &:before {
+        content: $icon-dash;
+    }
+}
+.icon-help {
+    &:before {
+        content: $icon-help;
+    }
+}
+.icon-linkedin {
+    &:before {
+        content: $icon-linkedin;
+    }
+}
+.icon-stats-bars {
+    &:before {
+        content: $icon-stats-bars;
+    }
+}
+.icon-sphere {
+    &:before {
+        content: $icon-sphere;
+    }
+}
+.icon-sphere2 {
+    &:before {
+        content: $icon-sphere2;
+    }
+}
+.icon-googleplus {
+    &:before {
+        content: $icon-googleplus;
+    }
+}
+.icon-twitter {
+    &:before {
+        content: $icon-twitter;
+    }
+}
+.icon-facebook {
+    &:before {
+        content: $icon-facebook;
+    }
+}
+.icon-youtube {
+    &:before {
+        content: $icon-youtube;
+    }
+}

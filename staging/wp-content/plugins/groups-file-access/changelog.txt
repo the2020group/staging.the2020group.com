@@ -1,0 +1,58 @@
+Groups File Access - Changelog
+==============================================================================
+
+* 1.5.0
+
+  - fixed group name filter wasn't cleared
+  - fixed prepare complaining when no filter params were set
+  - added content disposition option in admin settings
+  - added MIME type option in admin settings
+  - added MIME type display in Files admin section
+  - added support for HTTP range requests
+  - added support for temporary access URLs using the session_access option
+
+* 1.4.1
+  - added service action parameter
+
+* 1.4.0
+  - added the option to identify by service key
+  - added the [groups_file_access_service_key] shortcode
+
+* 1.3.1
+
+  - added information about issues when trying to import files
+  - removed the line length limit for file imports
+  - fixed a bug when trying to import a file line with invalid group names
+
+* 1.3.0
+
+  - added languages folder
+  - added loading text domain
+  - added shell scripts for .pot and .mo file generation
+  - fixed using normal string functions when mb_ functions are not available
+  - added the option to show file sizes with the [groups_file_info] shortcode using show="size" or show="sizeb"
+  - added visual highlight to active filters on Files screen
+
+* 1.2.1
+
+  - fixed imported files based on export are deleted
+
+* 1.2.0
+
+  - added safe_mode check before use of set_time_limit()
+  - removed DEFAULT values for TEXT columns, see http://bugs.mysql.com/bug.php?id=21532
+  - added bulk import feature
+  - added bulk scan feature
+  - added bulk export feature
+  - added group assignment on file add and file edit screens
+  - reduced action footprint on files screen
+  - fixed UTF-8 encoding issues in files screen and file add/edit screens
+  - added update notifier
+  - added orderby option to [groups_file_link] shortcode, allows to sort by file_id, name, description, path or max_count
+  - added option to use * for all groups and allowing multiple groups separated by comma as group attribute of the [groups_file_link] shortcode
+  - added the description_filter attribute to the [groups_file_link] shortcode which allows to indicate an alternative for the default wp_filter_kses used, if empty applies no filter
+  - fixed unnecessary URL-encoding for filename in header when serving files
+
+* 1.0.13
+
+  - added option to redirect to login page

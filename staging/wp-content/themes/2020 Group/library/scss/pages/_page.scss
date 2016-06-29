@@ -1,0 +1,218 @@
+#outer-wrap{
+	
+	.page{
+		background: url('../images/general/top-corner.png') right top no-repeat $white;
+		padding: 1rem;
+		margin-bottom: 1rem;
+		border-bottom: 2px solid darken($white, 20%);
+		@include border-radius(3px);
+		
+		.article-header{
+			
+			h1,h2{
+				margin-top: 0;
+				border-bottom: 1px solid $lgrey;
+				padding-bottom: 1rem;
+				line-height: 1;
+				font-weight: 600;
+				color: $cdblue;
+				font-size: 1.4rem;
+				
+				.title-logo{
+					height: 25px;
+					float: right;	
+					width: auto;
+				}
+			}
+		}
+		
+		.entry-content{
+			
+			h1, h2, h3, h4, h5{
+				font-weight: 600;
+				color: $cdblue;
+			}
+			
+			h1{}
+			h2{}
+			h3{}
+			h4{}
+			h5{}
+				
+			p{
+				color: $text;
+				font-weight: 400;
+				font-size: 1rem;
+				line-height: 1.5;
+				
+				img{
+					display: none;
+					border: 1px solid darken($lgrey, 10%);
+				}
+				
+				a{
+					color: $cpurple;
+					text-decoration: underline;
+					
+					&:hover{
+						text-decoration: none;
+					}
+					
+					&.gen-btn{
+						color: $white;
+					}
+				}
+			}
+			
+			ul,
+			ol{
+				padding: 0 0 0 1rem;
+				
+				li{
+					font-size: 1rem;
+					color: $text;
+				}
+			}
+			
+			.alert-panel{
+				background: darken($lgrey, 2%);
+				padding: 0.5rem;
+				
+				p{
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
+.page-id-255{
+	
+	#outer-wrap{
+	
+		.page{
+			
+			.article-header{
+				// background: url(../images/homepage/2020PracticeExchange.png) right top no-repeat;
+				
+				h2{
+					color: $corange;
+				}
+			}
+			
+			.entry-content{
+			
+				h1, h2, h3, h4, h5{
+					color: $corange;
+				}
+			}
+		}
+	}
+}
+
+
+@media (min-width: $screen-sm-min) {
+
+
+}
+
+
+@media (min-width: $screen-md-min) {
+	
+	#outer-wrap{
+	
+		.page{
+			padding: 3rem;
+			margin-bottom: 5rem;
+			
+			.article-header{
+				
+				h1,h2{
+					font-size: 2.5rem;
+					padding-bottom: 2.5rem;
+					
+					.title-logo{
+						height: 45px;
+						width: auto;
+					}
+				}
+			}
+			
+			.entry-content{
+				
+				h1{}
+				h2{}
+				h3{font-size: 1.4rem;}
+				h4{font-size: 1.2rem;}
+				h5{}
+				
+				p{
+					
+					img{
+						display: block;
+						width: auto;
+						//float: right;
+						//margin: 0 0 2rem 2rem;
+					}
+				}
+				
+				ul,
+				ol{
+					padding: 0 0 0 2rem;
+					
+					li{
+						padding-bottom: 1rem;
+					}
+				}
+
+				.bundled_product_excerpt {
+			    	margin: 0;
+			        p {
+			           	font-size: 1em;
+			           	margin: 0;
+			        }
+			    }
+
+				.alert-panel{
+					padding: 2rem;
+				}
+			}
+		}
+		.page.interest{
+			margin-bottom: 1rem;			
+		}
+	}
+}
+
+
+@media (min-width: $screen-lg-min) {
+	
+	#outer-wrap{
+	
+		.page{
+			padding: 3rem;
+			margin-bottom: 5rem;
+			
+			.article-header{
+				
+				h1{
+					font-size: 2.5rem;
+				}
+			}
+			
+			.entry-content{
+				
+				p{
+					font-size: 1.2rem;
+				}
+				
+				ul,ol{
+				
+					li{
+						font-size: 1.2rem;
+					}
+				}
+			}
+		}
+	}
+}

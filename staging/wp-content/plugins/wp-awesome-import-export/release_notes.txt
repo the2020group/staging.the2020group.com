@@ -1,0 +1,6 @@
+version 1.2 
+
+1. Fixed bugs
+2. Import files from url
+3. Export Comment by post Id
+

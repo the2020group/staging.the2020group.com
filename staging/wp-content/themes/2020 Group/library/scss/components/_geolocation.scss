@@ -1,0 +1,91 @@
+.location-modal {
+  display: none;
+  text-align: center;
+
+  h1 {
+    line-height: 1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  h3 {
+    line-height: 1;
+    margin: 0 0 5px 0;
+    padding: 0;
+  }
+  
+  p {
+    margin: 0;
+    padding-top:0;
+    
+    &.subheader {
+      margin:10px 0;
+    }
+  }
+  .inner {
+    padding: 0 0 25px 0;
+  }
+  
+  .geo-btns {
+    margin-top: 10px;
+  }
+}
+
+.location-warning {
+  border-radius: 3px;
+  border: 2px solid $cred;
+  background-color: lighten($cred, 42%);
+  margin: 20px 0;
+  padding: 20px 20px 20px 80px;
+  position: relative;
+  min-height: 100px;
+  
+  .icon-sphere {
+    position: absolute;
+    left: 10px;
+    @include font-size(50px);
+  }
+  
+  .entry-title {
+    color: lighten($black, 5%);
+    margin:0;
+    padding:0;
+  }
+  p {
+    margin:0;
+    padding:0;
+  }
+  
+  .hidethis {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: $cred;
+    text-align: center;
+    
+    &:hover {
+      cursor: pointer;
+      background-color: darken($cred, 15%);
+    }
+    
+    &:after {
+      font-family: 'icomoon';
+      content: "\e612";
+      color: $white;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 30px;
+      vertical-align: middle;
+      
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+  
+}

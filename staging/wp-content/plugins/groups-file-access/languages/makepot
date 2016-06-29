@@ -1,0 +1,5 @@
+#!/bin/sh
+cd ..
+gfa_version=$(awk '/Version\:\ (.+)$/ { print $3 }' groups-file-access.php)
+find . -iname "*.php" | xargs xgettext --language=PHP --indent --keyword=__ --keyword=_e --keyword=_x:2c,1 --keyword=__ngettext:1,2 -s -n --from-code=UTF-8 -o "languages/groups-file-access-${gfa_version}.pot"
+cd languages

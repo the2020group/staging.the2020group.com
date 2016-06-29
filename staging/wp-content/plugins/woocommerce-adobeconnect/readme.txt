@@ -1,0 +1,1 @@
+Installation and Configuration samples and guidelines can be found in the Documentation folder. Please run index.html in your favourite browser.

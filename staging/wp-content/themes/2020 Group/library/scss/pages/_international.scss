@@ -1,0 +1,505 @@
+
+.members-header{
+	
+	h1{
+		font-size: 1.6rem;
+		line-height: 1.2;
+		//margin-top: 0;
+		color: $grey;
+	}
+}
+
+.member-firms{
+	background: $cskydark;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	
+	.int-breadcrumbs{
+		margin: 0;
+		color: darken($lgrey, 30%);
+		padding: 0 0 1rem 0;
+		font-size: 0.8rem;
+		
+		a{
+			color: darken($lgrey, 30%);
+			
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+
+	.continent-list{
+		background: $inter;
+		
+		h3{
+			background: darken($inter, 10%);
+			margin: 0;
+			color: $white;
+			padding: 0.5rem 1rem;
+			position: relative;
+			
+			&:before {
+				top: 50%;
+				left: 0;
+				border: solid transparent;
+				content: '';
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+				border-color: rgba(247, 249, 249, 0);
+				border-left-color: $cskydark;
+				border-width: 10px;
+				margin-top: -10px;
+			}
+		}	
+		
+		.continent-btns{
+			padding: 0;
+			margin: 0 0 1rem 0;
+			
+			li{
+				list-style-type: none;
+				
+				
+				a{
+					display: block;	
+					text-decoration: none;
+					color: $white;
+					padding: 0.5rem 1rem;
+					//border-bottom: 2px solid lighten($inter, 10%);
+					
+					&:after{
+						content: '\e610';
+						font-family: 'icomoon';
+			      speak: none;
+			      font-style: normal;
+			      font-weight: normal;
+			      font-variant: normal;
+			      text-transform: none;
+						float: right;
+			      
+			      /* Better Font Rendering =========== */
+			      -webkit-font-smoothing: antialiased;
+			      -moz-osx-font-smoothing: grayscale;
+		     	}
+					
+					&:hover{
+						background: darken($inter, 10%);
+						padding: 0.5rem 1rem;
+					}
+				}
+				
+				&.selected{
+					//border-top: 2px solid darken($inter, 20%);
+					//border-bottom: 2px solid lighten($inter, 10%);
+				}
+				&.selected a,
+				&.selected a:hover{
+					background: darken($inter, 15%);
+					// padding: 0.5rem 1rem;
+					//border-top: 2px solid darken($inter, 20%);
+					//border-bottom: 2px solid lighten($inter, 10%);
+				}
+				
+				&:last-child{
+					border-bottom: 0;
+				}
+			}
+		}
+		
+		&.countries{
+			background: #aac2cb;
+			
+			h3{background: #88a4af;}
+			.continent-btns li{/* border-bottom-color: #88a4af; */}
+			.continent-btns li a{/* border-bottom: 2px solid lighten(#88a4af, 30%); */}
+			.continent-btns li a:hover{background: darken(#88a4af, 5%);}
+			
+			.continent-btns li.selected a{
+				background: darken(#88a4af, 5%);				
+				//border-top: 2px solid darken(#88a4af, 20%);
+				//border-bottom: 2px solid lighten(#88a4af, 20%);
+			}
+		}
+	}
+	
+	.member-copy{
+			
+		h2{
+			color: $grey;
+			font-size: 1.4rem;
+		}
+		
+		p{
+			color: $grey;
+			font-size: 0.8rem;
+			
+			&.intro{
+				font-size: 0.9rem;
+			}
+		}
+	}
+}
+	
+.country-detail{
+	background: $white;
+	
+	h3{
+		background: #c4d0d5;
+		margin: 0;
+		color: $grey;
+		padding: 0.5rem 1rem;
+		position: relative;
+		
+		&:before {
+			top: 50%;
+			left: 0;
+			border: solid transparent;
+			content: '';
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-color: rgba(247, 249, 249, 0);
+			border-left-color: $cskydark;
+			border-width: 10px;
+			margin-top: -10px;
+		}
+	}
+	
+	.country-info{
+		padding: 2rem;
+		border-bottom: 5px solid $lgrey;
+		
+		a{
+			color: $cpurple;
+
+
+			
+			&:hover{
+				text-decoration: none;
+			}
+		}
+		
+		ul{
+			padding: 0;
+		}
+
+      li.linkwrap{
+        white-space: pre-wrap;      /* CSS3 */
+        white-space: -moz-pre-wrap; /* Firefox */
+        white-space: -pre-wrap;     /* Opera <7 */
+        white-space: -o-pre-wrap;   /* Opera 7 */
+        word-wrap: break-word;      /* IE */
+        -ms-word-wrap:break-word;
+      }
+
+      ul.address li, ul.contacts li{
+        list-style:none;
+        margin-left:none;
+
+      }
+	}
+}
+
+#country-scroll{
+	width: 100%;
+	height: 250px;
+	padding-top: 75px;
+	//background-image: url(../images/inter/sydney.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+	position: relative;
+	text-align: center;
+	@include back-size(cover);
+	
+	h2,p {
+		color: $white;
+		margin: 0 auto;
+		max-width: 600px;
+	}
+	
+	h2{
+		font-size: 1.2rem;
+	}
+	
+	p{
+		font-size: 0.8rem;
+	}
+}
+
+.strat-alli{
+	background: $cskydark;
+	text-align: center;
+	
+	h2{
+		display: inline-block;
+		padding-bottom: 0.5rem;
+		font-size: 1.6rem;
+		border-bottom: 5px solid darken($cskydark, 15%);
+	}
+	
+	.all-list{
+		text-align: left;
+		
+		h3, h4{
+			margin: 0;
+		}
+		
+		p{
+			font-size: 0.8rem;
+		}
+		
+		a{
+			color: $inter;
+		}
+	}
+}
+
+.int-resource{
+	padding-bottom: 1rem;
+	
+	h3{
+		
+	}
+	
+	.resources{
+		
+	}
+	
+	.avail-downloads{
+		background: $cskydark;
+		padding: 1rem;
+		
+		h4{
+			margin: 0;
+			padding-bottom: 1rem;
+		}
+		
+		.download{
+			text-decoration: none;
+			display: block;
+			border-top: 2px solid #d2d4d4;
+			padding: 1rem;
+			color: $grey;
+			
+			&:after{
+				content: '\e61d';
+				font-family: 'icomoon';
+	      speak: none;
+	      font-style: normal;
+	      font-weight: normal;
+	      font-variant: normal;
+	      text-transform: none;
+				float: right;
+	      
+	      /* Better Font Rendering =========== */
+	      -webkit-font-smoothing: antialiased;
+	      -moz-osx-font-smoothing: grayscale;
+	     }
+		}
+	}
+	
+	&:before {
+		top: 0;
+		left: 50%;
+		border: solid transparent;
+		content: '';
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(247, 249, 249, 0);
+		border-top-color: $cskydark;
+		border-width: 10px;
+		margin-left: -5px;
+	}
+}
+
+.member-say-wrap{
+	background: $inter;
+	padding: 1rem 0;
+	
+	p{
+		color: $white;
+		font-size: 0.8rem;
+		
+		&.quote{
+			font-style: italic;
+		}
+		
+		&.person{
+			font-weight: 600;
+		}
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+
+}
+
+@media (min-width: $screen-md-min) {
+	
+	.members-header{
+		
+		h1{
+			font-size: 1.8rem;
+			margin: 2.5rem 0;
+		}
+	}
+	
+	.member-firms{
+		padding: 2rem 3rem 3rem 3rem;
+		margin-bottom: 3rem;
+		
+		.int-breadcrumbs{
+			padding-bottom: 2rem;
+			font-size: 1rem;
+		}
+	
+		.continent-list{
+			
+			h3{
+				padding: 1.5rem 1.5rem;
+			}	
+			
+			.continent-btns{
+				
+				li{
+					font-size: 1.3rem;
+					
+					a{
+						padding: 1.5rem 1.5rem;
+						
+						&:after{
+							content: '\e618';
+			     	}
+						
+						&:hover{
+							background: darken($inter, 10%);
+							padding: 1.5rem 2rem;
+						}
+					}
+				}
+			}
+		}
+		
+		.member-copy{
+			padding: 0 4rem;
+			
+			h2{
+				font-size: 1.8rem;
+				margin: 0;
+			}
+			
+			p{
+				color: $grey;
+				font-size: 1.2rem;
+				
+				&.intro{
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+	
+	.country-detail{
+		background: $white;
+		
+		h3{
+			padding: 1.5rem 1rem;
+		}
+	}
+	
+	#country-scroll{
+		height: 450px;
+		padding-top: 150px;
+		
+		h2{
+			font-size: 1.5rem;
+		}
+		
+		p{
+			font-size: 1.1rem;
+		}
+	}
+	
+	.member-say-wrap{
+		padding: 4rem 0;	
+		
+		p{
+			font-size: 1.2rem;
+		}
+	}
+	
+	.strat-alli{
+		background: $cskydark;
+		text-align: center;
+		padding: 4rem 0;
+		
+		h2{
+			padding-bottom: 1rem;
+			font-size: 1.6rem;
+			margin-top: 0;
+		}
+		
+		.all-list{
+			
+			h3, h4{
+			}
+			
+			p{
+				font-size: 1rem;
+			}
+			
+			a{
+				
+			}
+		}
+	}
+	
+	.int-resource{
+		padding: 4rem 0;
+	
+		h3{
+			display: inline-block;
+			float: left;
+			font-size: 1.4rem;
+		}
+		
+		.resources{
+			float: right;
+		}
+		
+		.avail-downloads{
+			clear: both;
+			padding: 2rem;
+			
+			h4{
+				font-size: 1.4rem;
+			}
+			
+			.download{
+				font-size: 1.2rem;
+				padding: 1rem 0 0 0;
+			
+				&:hover{
+				padding: 1rem 1rem 0 1rem;
+			}
+			}
+		}
+		
+		&:before {
+			border-width: 24px;
+			margin-left: -12px;
+		}
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+
+}
+

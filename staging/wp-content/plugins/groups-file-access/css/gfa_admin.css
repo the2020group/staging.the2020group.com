@@ -1,0 +1,130 @@
+/**
+ * gfa_admin.css
+ *
+ * Copyright (c) "kento" Karim Rahimpur www.itthinx.com
+ *
+ * This code is provided subject to the license granted.
+ * Unauthorized use and distribution is prohibited.
+ * See COPYRIGHT.txt and LICENSE.txt
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This header and all notices must be kept intact.
+ */
+.manage-files {
+	margin-right: 1em;
+}
+.files-overview .page-options {
+	float: left;
+	display: inline;
+	padding-bottom: 1em;
+}
+.files-overview .tablenav.top {
+	display: inline;
+}
+.files-overview .tablenav .actions select {
+	float: none;
+}
+.files-overview .actions.remove {
+	padding-left: 1em;
+}
+.files-overview .actions.group {
+	border-left: 1px solid #ccc;
+	padding-left: 4px;
+	margin-left: 4px;
+}
+.manage-files .required {
+	background: url(../images/required.png) transparent no-repeat left center;
+	padding-left: 16px ! important;
+}
+label.file-id-filter,
+label.file-name-filter,
+label.file-description-filter,
+label.file-path-filter,
+label.file-max-count-filter,
+label.file-group-name-filter {
+	padding-right: 0.62em;
+}
+input.file-id-filter,
+input.file-name-filter,
+input.file-description-filter,
+input.file-path-filter,
+input.file-max-count-filter,
+input.file-group-name-filter {
+	margin-right: 1em;
+}
+input.file-id-filter,
+input.file-max-count-filter {
+	width: 4em;
+}
+
+.manage-files table.files th.file_id {
+	width: 5%;
+}
+.manage-files table.files th.name {
+	width: 10%;
+}
+.manage-files table.files th.description {
+	width: 20%;
+}
+.manage-files table.files th.path {
+	width: 40%;
+}
+.manage-files table.files th.max_count {
+	width: 5%;
+}
+.manage-files table.files th.groups {
+    width: 10%;
+}
+.manage-files table.files th.edit {
+	width: 5%;
+}
+.manage-files table.files th.remove {
+	width: 5%;
+}
+div.file.new label.description-field,
+div.file.edit label.description-field {
+	vertical-align: top;
+}
+div.file input.filefield,
+div.file input.namefield,
+div.file textarea.descriptionfield,
+div.file input.maxcountfield {
+	display: block;
+}
+div.file input.namefield,
+div.file textarea.descriptionfield {
+	width: 60%;
+}
+div.file input.maxcountfield {
+	width: 50px;
+	text-align: right;
+}
+div.file div.field {
+	margin-bottom: 1em;
+}
+
+div.gfa-help ul {
+	list-style: square;
+}
+div.gfa-help ul li {
+	margin-left: 1em;
+}
+div.gfa-footer {
+	padding-top: 1em;
+	font-size: 0.9em;
+	color: #999;
+}
+div.gfa-footer img {
+	vertical-align: middle;
+}
+.manage-files ul.info li {
+	list-style-image: url(../images/info.png);
+	list-style-position: inside;
+}
+
+input.filter-active {
+	background-color: #f0f0ff;
+}

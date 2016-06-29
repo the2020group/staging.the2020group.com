@@ -1,0 +1,178 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>WooCommerce - Adobe Connect - connector to sell your online webinars and courses</title>
+	
+	<meta name="description" content="This plugin will allow you to specify the course/meeting/webinar that you have created and setup in Adobe Connect (be it a hosted server or your own one as long as it runs version 8 or 9) and those who buy it online will be created as  users and automatically added to that course/meeting/webinar in Adobe Connect! They will even have a welcome e-mail sent to them from Adobe Connect (if you choose so in the plugin settings) and also get all of their login details as part of the order confirmation e-mail that WooCommerce sends out once you set the order to "Completed"
+
+Just install the plugin, provide your Adobe Connect server details and some WooCommerce optional settings and you are ready to sell!
+
+Support is available via the comments section above.
+">
+	<meta name="author" content="relit.ca">
+	<meta name="copyright" content="relit.ca">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-06-26T19:21:49+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#222222;color:#666666;}
+		::-moz-selection{background:#BBBBBB;color:#222222;}
+		::selection{background:#BBBBBB;color:#222222;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#BBBBBB;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #444444, #111111);
+			  background-image: -ms-linear-gradient(top, #444444, #111111);
+			  background-image: -webkit-gradient(linear, 0 0, 0 444444%, from(#111111), to(#111111));
+			  background-image: -webkit-linear-gradient(top, #444444, #111111);
+			  background-image: -o-linear-gradient(top, #444444, #111111);
+			  background-image: linear-gradient(top, #444444, #111111);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#111111', GradientType=0);
+			  border-color: #111111 #111111 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #444444 #444444 #bfbfbf;
+		  background-color: #111111;
+		}
+		hr{border-top:1px solid #111111;border-bottom:1px solid #333333;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#111111;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #222222;-moz-text-shadow:1px 1px 0px #222222;text-shadow:1px 1px 0px #222222;}
+		#documenter_sidebar ul{border-top:1px solid #000000;}
+		#documenter_sidebar ul a{border-top:1px solid #222222;border-bottom:1px solid #000000;color:#BBBBBB;}
+		#documenter_sidebar ul a:hover{background:#BBBBBB;color:#222222;border-top:1px solid #BBBBBB;}
+		#documenter_sidebar ul a.current{background:#BBBBBB;color:#222222;border-top:1px solid #BBBBBB;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-woocommerce-adobe-connect">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#required_server_side_specs" title="Required Server Side specs">Required Server Side specs</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#configuration" title="Configuration">Configuration</a></li>
+			<li><a href="#productsetup" title="Product Setup">Product Setup</a></li>
+			<li><a href="#email" title="email">Sample Order Completed e-mail</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright relit.ca 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>WooCommerce - Adobe Connect</h1>
+	<h2>connector to sell your online webinars and courses</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 06/20/2014</li>
+	
+	<li>by: relit.ca</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#114;&#101;&#108;&#105;&#116;&#46;&#99;&#97;">&#105;&#110;&#102;&#111;&#64;&#114;&#101;&#108;&#105;&#116;&#46;&#99;&#97;</a></li>
+	</ul>
+	<p>Ever wanted to automate your selling of online webinars or courses on Adobe Connect? Well, it's finally here: WooCommerce to Adobe Connect connector plugin!</p>
+	</section>
+	
+	<section id="required_server_side_specs">
+	<div class="page-header"><h3>Required Server Side specs</h3><hr class="notop"></div>
+<p>
+	Curl needs to be enabled on your webserver. It is by default enabled on majority of hosting environments and in Linux/Windows flavors of Apache webservers</p>
+</section>
+<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>
+	After your purchase, download the plugin to your computer. In Wordpress go to Installed Plugins and click Add New, then select upload and point to the previously downloaded zip file. Press Install Now. Once finished, activate the plugin. You will see a menu item &quot;Adobe Connect&quot; on the main menu of your dashboard.</p>
+</section>
+<section id="configuration">
+	<div class="page-header"><h3>Configuration</h3><hr class="notop"></div>
+<p>
+	In the configuration screen you will need to provide the following info:</p>
+<p>
+	<em><strong>Adobe Connect Settings</strong></em></p>
+		<img src="screenshots/1.png">
+<p>
+	<strong>Domain</strong> : Enter the full domain of your host. DO NOT include &quot;/&quot; at the end. (i.e. - http://example.adobeconnect.com)</p>
+<p>
+	<strong>Admin Login</strong>:&nbsp;Login to the account that can create stuff.</p>
+<p>
+	<strong>Admin Password</strong>: Password for the account above.</p>
+<p>
+	<strong>E-mail notification</strong>: Select this checkbox to enable a welcome email notification (sent and formatted by Adobe Connect server) to new users created by this.</p>
+<p>
+	<strong>User Prefix</strong>:&nbsp; Set prefix for new users. Enter something like &quot;C123-&quot; to create a user like C123-FLastname. Plugin will use the first letter of the first name and full last name for usernames supplied by the billing info in WooCommerce (works for older versions of Adobe Connect servers)</p>
+<p>
+	<em><strong>WooCommerce Settings</strong></em></p>
+			<img src="screenshots/2.png">
+<p>
+	<strong>Enable WooCommerce integration</strong>: elect this option to enable additional tab in the Products Data section. This basically enables/disables integration.</p>
+<p>
+	<strong>WC Tab Name</strong>: Enter the desired Tab name that will show in the Product Info box tabs in the admin of WooCommerce</p>
+<p>
+	<em><strong>Error Log Settings</strong></em></p>
+			<img src="screenshots/3.png">
+<p>
+	<strong>Enable Error Log</strong>:&nbsp; Select this option to enable Error Log. It&#39;s a lot easier to diagnose problems and helps greatly the support team.</p>
+<p>
+	<strong>Error Log File</strong>: Enter the desired name for the error log. It will be placed into the plugin Error Logs directory</p>
+<p>
+	<em><strong>Testing your settings</strong></em></p>
+<p>
+	If you filled all of those out then it&#39;s time to test things.</p>
+<p>
+	Once you click the &quot;Test Settings&quot; button a new pop-up window will open. If you see &lt;status code=&quot;ok&quot;\&gt; then you are all set and login to your AC server was succesful.</p>
+<p>
+	If you see &lt;status code=&quot;no-data&quot;/&gt; then your login credentials or the domain are wrong.</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="productsetup">
+	<div class="page-header"><h3>Product Setup sample</h3><hr class="notop"></div>
+<p>
+	<em><strong>Sample of the Product Data Screen</strong></em></p>
+			<img src="screenshots/product.png">
+</section>
+
+<section id="email">
+	<div class="page-header"><h3>Order Completed e-mail sample</h3><hr class="notop"></div>
+<p>
+	<em><strong>Sample of the Order Completed e-mail</strong></em></p>
+			<img src="screenshots/email.png">
+</section>
+	</div>
+</body>
+</html>

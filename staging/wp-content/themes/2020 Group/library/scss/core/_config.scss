@@ -1,0 +1,156 @@
+/*******************************
+ Table of Contents
+ 
+ 1: Max Grid Sizing
+ 2: Base Font Sizing
+ 3: Colours
+ 4: Typography
+ 5: Links
+
+
+/*******************************
+ 1: Max Grid Sizing
+*******************************/
+
+$screen-sm-min:         640px;
+$screen-sm-max:         768px;
+$screen-md-min:         1025px;
+$screen-lg-min:         1200px;
+$screen-xlg-min:        1400px;
+
+
+@media (min-width: $screen-sm-min) {
+  .row { max-width:$screen-lg-min; }
+}
+
+@media (min-width: $screen-md-min) {
+  .row { max-width:$screen-lg-min; }
+}
+
+@media (min-width: $screen-lg-min) {
+  .row { max-width:$screen-lg-min; }
+}
+
+@media (min-width: $screen-xlg-min) {
+  .row { max-width:$screen-xlg-min; }
+}
+
+/*******************************
+  2: Base Font Sizing
+*******************************/
+
+$font-size-base:        16px;
+$font-size-xlarge:      ceil(($font-size-base * 1.4));  // ~24px
+
+
+/*******************************
+  3: Colours
+*******************************/
+
+// Primary
+
+$black:             #242424;
+$white:             #ffffff;
+
+$lgrey:        			#f2f3f4;
+$grey:              #343434;
+$dgrey:							#313131;
+$text:							#484848;
+
+$blue:							#40859b;
+$orange:						#d3492f;
+$red:								#e73e35;
+$yellow:						#e8f01a;
+$green:							#90e140;
+
+
+// Core colours
+
+$cpurple:						#653653;
+$cplum:							#ac626f;
+$corange:						#f16248;
+$cpeach:						#e78f84;
+$cred:							#e23b37;
+$csilver:						#adc3c7;
+$cmblue:						#51839a;
+$cdblue:						#365665;
+
+$csky:							#edf3f3;
+$cskydark:					#d9e7e7;
+$cskytint:          darken($csky, 2%);
+$cgrey:							#7d8585;
+$cgreen:						#68d68c;
+$calert:						#e84558;
+$acca:							#e84429;
+$inter:							#67b5d2;				
+
+
+
+$link-color:        $blue;
+$link-hover:        darken($link-color, 10%);
+
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+
+// WooCommerce Variables
+
+$woocommerce:       #a46497;
+$green:             #7ad03a;
+$red:               #a00;
+$orange:            #ffba00;
+$blue:              #2ea2cc;
+
+$primary:           $corange;                                    // Primary colour for buttons (alt)
+$primarytext:       desaturate(lighten($primary, 50%), 18%);    // Text on primary colour bg
+
+$secondary:         desaturate(lighten($primary, 40%), 21%);    // Secondary buttons
+$secondarytext:     $black;                                     // Text on secondary colour bg
+
+$highlight:         $corange;                                   // Prices, In stock labels, sales flash
+$highlightext:      desaturate(lighten($highlight, 50%), 18%);  // Text on highlight colour bg
+
+$contentbg:         #fff;                                       // Content BG - Tabs (active state)
+$subtext:           #777;                                       // small, breadcrumbs etc
+
+
+
+/*******************************
+  4: TYPOGRAPHY
+*******************************/
+
+// Font stacks
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+
+// Change these to your own
+$header-font:       'proxima-nova-soft', $sans-serif;
+$body-font:		      'proxima-nova-soft', $sans-serif;
+
+
+/*******************************
+  4: Links
+*******************************/
+
+
+@media (min-width: $screen-lg-min) {
+		
+		a, a:visited {
+			@include transition(all, 0.2s, ease-in-out);
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

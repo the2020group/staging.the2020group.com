@@ -1,0 +1,271 @@
+
+.page-footer{
+	padding: 1rem 0 2rem 0;
+	background: $dgrey;
+	color: $white;
+	
+	h3, h4{
+		font-family:  'proxima-nova-soft', $sans-serif;
+		font-weight: 400 !important;
+		font-size: 16px !important;
+		margin: 0 0 0.5rem 0;
+	}
+	
+	#menu-footer-menu,
+	#menu-footer-secondary-menu{
+		padding: 0;
+		margin-top: 0;
+		margin-left: 1rem;
+		
+		li{
+			color: lighten($grey, 20%);
+			
+			a{
+				font-family:  'proxima-nova-soft', $sans-serif;
+				font-weight: 400;
+				font-size: 14px; 
+				color: lighten($grey, 20%);
+				text-decoration: none;
+				
+				&:hover{
+					color: $corange;
+				}
+			}
+		}
+	}
+	
+	.social-links{
+		padding: 0;
+		
+		li{
+			display: inline-block;
+			vertical-align: baseline;
+			
+			a{
+				display: block;
+				width: 44px;
+				height: 44px;
+				line-height: 46px;
+				background: lighten($grey, 15%);
+				margin-right: 0.5rem;
+				color: $dgrey;
+				text-align: center;
+				text-decoration: none;
+				font-size: 1.4em;
+				@include border-radius(22px);
+				
+				&:hover{
+					color: $white;
+				}
+				
+				&.facebook{
+					
+					&:hover{
+						background: #3b5998;
+					}
+				}
+				
+				&.twitter{
+					
+					&:hover{
+						background: #00aced;
+					}
+				}
+				
+				&.linkedin{
+					
+					&:hover{
+						background: #007bb6;
+					}
+				}
+				
+				&.youtube{
+					
+					&:hover{
+						background: #e52d27;
+					}
+				}
+				
+				span{
+					/* display: none; */
+				}
+			}
+		}
+	}
+	
+	.footer-logos{
+		padding: 0;
+				
+		li{
+			display: inline-block;
+			list-style-type: none;
+			width: 49%;
+			text-align: left;
+			
+			a{
+				display: inline-block;
+				
+				&.acca{
+					width: 73px;
+					height: 74px;
+					background: url(../images/general/acca-footer.png) center top no-repeat;
+				}	
+				
+				&.cpaa{
+					width: 108px;
+					height: 74px;
+					background: url(../images/general/cpaa-footer.png) center top no-repeat;
+				}
+				
+				&.icpa{
+					width: 98px;
+					height: 74px;
+					background: url(../images/general/icpa-footer.png) center top no-repeat;
+				}
+				
+				&.innov{
+					width: 151px;
+					height: 74px;
+					background: url(../images/general/2020-footer.png) center top no-repeat;
+				}
+				
+				&.mercia{
+					width: 53px;
+					height: 74px;
+					background: url(../images/general/mercia-logo.png) center top no-repeat;
+				}
+				
+				&:hover{
+					background-position: center bottom;
+				}
+				
+				span{
+					display: none;
+				}
+			}
+		}
+	}
+	
+	.footer-form_wrapper{
+		margin-top: 0;
+		
+		.footer-form{
+			
+			.gform_heading{
+				margin-bottom: 0;
+			}
+			
+			.gform_title{
+				margin: 0 0 0.5rem 0;
+			}
+			
+			.gform_fields_2{
+				padding: 0;
+			}
+           .footer-name input,
+           .footer-email input{
+             min-height:50px;
+           }
+			
+			.gfield_label,
+			.footer-name input,
+			.footer-email input,
+			.footer-message input,
+			.gform_footer #gform_submit_button_2{
+				font-family:  'proxima-nova-soft', $sans-serif;	
+				font-weight: 400;
+			}
+			
+			.gfield_label{
+				font-size: 13px;
+				color: lighten($grey, 10%);
+				display: none;
+			}
+			
+			.footer-name input,
+			.footer-email input{
+				margin-bottom: 8px;
+			}
+			
+			.footer-message textarea{
+				margin-bottom: 5px;
+			}
+			
+			.footer-name input,
+			.footer-email input,
+			.footer-message textarea{
+				width: 100% !important;
+				color: $lgrey;
+				background: #444444;
+				border: none;
+				font-size: 14px;
+				padding: 1rem;
+				@include border-radius(5px);
+			}
+			
+			.gform_footer{
+				margin: 0;
+				padding: 0;
+				
+				#gform_submit_button_2{
+					background: $corange;
+					border: none;
+					width: 100%;
+					color: $white;
+					padding: 0.8rem;
+					@include border-radius(5px);
+					@include transition(all, 0.2s, ease-in-out);
+					cursor: pointer;
+					
+					&:hover{
+						background: darken($corange, 5%);
+					} 
+				}
+			}
+		}
+	}
+}
+
+
+@media (min-width: $screen-md-min) {
+	
+	.page-footer{
+		padding: 3rem 0 5rem 0;
+		
+		.footer-logos{
+					
+			li{
+				width: 18%;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+
+	.page-footer{
+		padding: 4rem 0 5rem 0;
+		
+		h3, h4{
+			margin: 0 0 2rem 0;
+		}
+		
+		.footer-logos{
+					
+			li{
+				width: 20%;
+			}
+		}
+		
+		.footer-form_wrapper{
+			margin-top: 0;
+			
+			.footer-form{
+			
+				.gform_title{
+					margin: 0 0 2rem 0;
+				}
+			}
+		}		
+	}
+}

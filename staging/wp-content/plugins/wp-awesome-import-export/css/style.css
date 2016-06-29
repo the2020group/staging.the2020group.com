@@ -1,0 +1,155 @@
+#awesome-content .wp-awesome-content .tbData {
+    display:none
+}
+#awesome-content .submitImportForm .tblData td{
+    font-size:14px;
+}
+#awesome-content  .submitImportForm .tblData th{
+    font-size:16px;
+}
+#awesome-content .wp-awesome-content label,#awesome-content .wp-awesome-content input,#awesome-content .wp-awesome-content button,#awesome-content .wp-awesome-content select,#awesome-content .wp-awesome-content textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+/*Export Forms*/
+#awesome-content .submitWPAIEForm .control-group {
+    width:100%;
+    margin-bottom:10px;
+}
+#awesome-content  .submitWPAIEForm .control-group .control-label {
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+    text-align: right;
+}
+#awesome-content  .submitWPAIEForm .control-group .controls {
+    float: left;
+    width: 70%;
+    margin:5px;
+    text-align:center;
+}
+#awesome-content .submitWPAIEForm .control-group select.w-wrap {
+    width: 300px;
+    background-color: #ffffff;
+    background-image: none !important;
+    filter: none !important;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    float:left;
+    border-radius:4px;
+}
+#awesome-content .submitWPAIEForm .control-group select.w-wrap{
+    float:right;
+    margin-right:24%;
+}
+#awesome-content .settings .control-group select.w-wrap{
+    float:right;
+    margin-right:23%;
+}
+#awesome-content .import .control-group select.w-wrap{
+    float:left;
+}
+#awesome-content .submitWPAIEForm .control-group input[type=text],#awesome-content .submitWPAIEForm .control-group input[type=url],#awesome-content .submitWPAIEForm .control-group select,#awesome-content .submitWPAIEForm .control-group textarea {
+    width: 300px;
+
+}
+#awesome-content .submitWPAIEForm .control-group input[type=text]{
+    float: right;
+    margin-right:24%;
+}
+#awesome-content .submitWPAIEForm .control-group input[type=file]{
+    font-size: 14px !important;
+}
+#awesome-content #xmlRootElement , #csvDelimiter ,#categorySeparator , #termSeparator{
+    margin-right:23% !important;
+}
+#awesome-content .submitWPAIEForm .control-group .controls .submit,#awesome-content .importInfo .submit {
+    padding: 5px 15px;
+    /*	background: #34495E;*/
+    background: #E86850;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    border-radius: 0px !important;
+    border:1px solid #DDD;
+    margin-left:105px;
+}
+#awesome-content .submitWPAIEForm .controls .textarea {
+    width:500px;
+    height:150px;
+}
+#awesome-content .help-inline {
+    font-size:10px;
+    background:url("../images/qmark.png") no-repeat;
+    width:15px;
+    height:15px;
+    float:left;
+}
+#awesome-content .heading {
+    width:100%;
+    height: 34px;
+    line-height: 30px;
+    /*	background:#1ABC9C;*/
+    background:#E86850;
+    color:#fff;
+    margin-bottom:10px; 
+    border-top:2px solid #DDD;
+    border-bottom: 2px solid #DDD;
+}
+#awesome-content .heading span {
+    padding-left:10px;
+    vertical-align:middle;
+    font-weight:bold;
+}
+#awesome-content .result {
+    margin-bottom:10px;
+}
+#awesome-content #mapFields {
+    float:left;
+    width:100%;
+}
+#awesome-content #loadingmessage {
+    display:none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )  url('../images/ajax-loader.gif')  50% 50%  no-repeat;
+    opacity: 0.80;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 80);
+    filter: alpha(opacity = 80)
+}
+#awesome-content{
+    width: 90%;
+    background: #FFFFFF;
+    padding: 10px;
+    margin:15px;
+    border:1px solid #DDDDDD;
+    box-shadow: 1px 1px 1px #DDD;
+
+}
+#awesome-content .downloadLink a {
+    font-weight:bold;
+    color:#E86850;
+}
+#awesome-content .ms-drop ul > li{
+    text-align:left !important;
+}
+#awesome-content button.ms-choice{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+#awesome-content .result table th,#awesome-content .result table td,#awesome-content .result table td a{
+    color:#fff;
+}
+#awesome-content .result table td a{
+    text-decoration: underline;
+}
+#awesome-content .import_result table th,#awesome-content .import_result table td,#awesome-content .import_result table td a{
+    color:#000 !important;
+}
+#awesome-content .span_or{ color: #E8693D}

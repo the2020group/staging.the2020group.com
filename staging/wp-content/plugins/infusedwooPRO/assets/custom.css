@@ -1,0 +1,6 @@
+.chosen-results {
+  min-height: 10px;
+  min-width: 10px;
+}
+
+.chosen-container { min-width: 400px !important; }

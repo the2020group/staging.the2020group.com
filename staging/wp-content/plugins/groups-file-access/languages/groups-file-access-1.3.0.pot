@@ -1,0 +1,956 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2013-10-26 16:21+0200\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: lib/views/class-gfa-help.php:217
+msgid   "* Only one of <code>file_id</code> or <code>group</code> is "
+        "required, both should not be provided."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:139
+msgid   "<code>description</code> - <em>optional</em> - A detailed "
+        "description of the file."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:206
+msgid   "<code>description</code> optional - only effective when used with "
+        "the <code>group</code> attribute; defaults to \"no\", if set to \"yes"
+        "\" will show descriptions for each file"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:133
+msgid   "<code>file_id</code> - <em>optional</em> - The <em>Id</em> of an "
+        "existing file entry. If provided, the existing file will be "
+        "<strong>deleted</strong> and the new file will be related to the "
+        "entry."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:132 lib/views/class-gfa-help.php:154
+#: lib/views/class-gfa-help.php:180
+msgid   "<code>file_id</code> required - identifies the desired file"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:200
+msgid   "<code>file_id</code> required* - identifies the desired file"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:128
+#, php-format
+msgid   "<code>filename</code> - <strong>required</strong> - The full "
+        "filename of the file uploaded to the <code>%s</code> directory. Do "
+        "not include the full path."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:163
+msgid   "<code>filter</code> optional - defaults to <code>wp_filter_kses</"
+        "code> determining the filter function that is applied to the "
+        "information about to be shown. If <code>none</code> or an empty "
+        "value is provided, no filter function will be applied prior to "
+        "rendering the information."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:203
+msgid   "<code>group</code> required* - group name or ID - will list file "
+        "links for the files that are related to the given group, sorted by "
+        "name"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:145
+msgid   "<code>group_names</code> - <em>optional</em> - The names of the "
+        "groups that are allowed to access the file, separated by comma. If "
+        "empty, the file can not be accessed until a group is assigned."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:142
+msgid   "<code>max_count</code> - <em>optional</em> - The maximum number of "
+        "allowed accesses to the file per user. Leave empty or use 0 for "
+        "unlimited accesses."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:136
+msgid   "<code>name</code> - <em>optional</em> - A descriptive name for the "
+        "file. If left empty, the filename will be used."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:209
+msgid   "<code>order</code> optional - only effective when used with the "
+        "<code>group</code> attribute; files are listed sorted by name which "
+        "defaults to \"asc\" for ascending order, allows \"desc\" for "
+        "descending order"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:157
+msgid   "<code>show</code> optional - defaults to \"name\". Acceptable values "
+        "are any of <code>name</code>, <code>description</code>, <code>count</"
+        "code>, <code>max_count</code>, <code>remaining</code> and "
+        "<code>file_id</code>"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:160 lib/views/class-gfa-help.php:183
+#: lib/views/class-gfa-help.php:212
+msgid   "<code>visibility</code> optional - defaults to <code>can_access</"
+        "code> showing information only if the current user can access the "
+        "file, <code>always</code> will show information unconditionally"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:235
+msgid   "<code>visibility</code> required - <code>can_access</code> or "
+        "<code>always</code>"
+msgstr  ""
+
+#: lib/admin/files.php:380
+msgid   "<span title=\"Maximum number of accesses per user\">Max #</span>"
+msgstr  ""
+
+#: lib/admin/files.php:381
+msgid   "<span title=\"Only group members can access the file\">Groups</span>"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:110
+#, php-format
+msgid   "<strong>Adding new files in bulk</strong> : After uploading new "
+        "files via FTP to the <code>%s</code> folder, use the <em>Scan</em> "
+        "function below to automatically create an import file. Use the file "
+        "obtained to import your uploaded files here."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:113
+msgid   "<strong>Modifying existing file entries in bulk</strong> : Use the "
+        "<em>Export</em> function below to create an import file based on "
+        "existing entries."
+msgstr  ""
+
+#: lib/admin/file-add.php:67
+msgid   "A descriptive name for the file. If left empty, the filename will be "
+        "used."
+msgstr  ""
+
+#: lib/admin/file-add.php:73
+msgid   "A detailed description of the file."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:130
+msgid   "A line that refers to the <code>filename</code> of an existing entry "
+        "will update the information related to the entry."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:240
+msgid   "API"
+msgstr  ""
+
+#: lib/admin/file-edit.php:31 lib/admin/file-edit.php:170
+#: lib/admin/file-edit.php:173 lib/admin/class-groups-file-access-admin.php:35
+#: lib/admin/class-groups-file-access-admin.php:215 lib/admin/file-add.php:30
+#: lib/admin/file-add.php:138 lib/admin/file-add.php:142
+#: lib/admin/files.php:47 lib/admin/files.php:168 lib/admin/files.php:248
+#: lib/admin/files.php:254 lib/admin/file-remove.php:31
+#: lib/admin/file-remove.php:86 lib/admin/file-remove.php:90
+msgid   "Access denied."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:116
+#, php-format
+msgid   "Access to files in <code>%s</code> is protected by an <code>."
+        "htaccess</code> file in that directory."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:49 lib/views/class-gfa-help.php:96
+msgid   "Access to files is restricted by group membership. To be able to "
+        "download a file, a user must be a member of a group that is assigned "
+        "to the file. If an access limit has been set for the file, the user "
+        "must also have accessed (downloaded) the file fewer times than the "
+        "file&rsquo;s access limit."
+msgstr  ""
+
+#: lib/admin/file-edit.php:140 lib/admin/file-add.php:106
+msgid   "Access to the file is restricted to members of the selected groups."
+msgstr  ""
+
+#: lib/admin/file-add.php:112 lib/admin/files.php:275 lib/admin/files.php:480
+msgid   "Add"
+msgstr  ""
+
+#: lib/admin/file-add.php:51
+msgid   "Add a new file"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:220
+msgid   "Additional attributes are accepted for the link&rsquo;s <code>a</"
+        "code> tag. These are <code>accesskey</code>, <code>alt</code>, "
+        "<code>charset</code>, <code>coords</code>, <code>class</code>, "
+        "<code>dir</code>, <code>hreflang</code>, <code>id</code>, "
+        "<code>lang</code>, <code>name</code>, <code>rel</code>, <code>rev</"
+        "code>, <code>shape</code>, <code>style</code>, <code>tabindex</code> "
+        "and <code>target</code>. Please refer to the <a href=\"http://www.w3."
+        "org/TR/html401/cover.html\">HTML 4.01 Specification</a> on the <a "
+        "href=\"http://www.w3.org/TR/html401/struct/links.html#h-12.2\">The A "
+        "element</a> for further information about these attributes."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:41 lib/views/class-gfa-help.php:71
+msgid   "Additional information and examples are available on the <a href="
+        "\"http://www.itthinx.com/plugins/groups-file-access/\">plugin page</"
+        "a> and the <a href=\"http://www.itthinx.com/documentation/groups-"
+        "file-access/\">documentation pages</a>."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:142
+msgid   "Admin notification"
+msgstr  ""
+
+#: lib/admin/files.php:416 lib/admin/files.php:430
+msgid   "Apply"
+msgstr  ""
+
+#: lib/admin/files.php:453
+msgid   "Apply to selected"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:128 lib/views/class-gfa-help.php:150
+#: lib/views/class-gfa-help.php:176 lib/views/class-gfa-help.php:196
+#: lib/views/class-gfa-help.php:231
+msgid   "Attributes"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:58 lib/views/class-gfa-help.php:105
+msgid   "By selecting one or more files, bulk operations can be executed, "
+        "including adding files to a group, removing files from a group and "
+        "removing files."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:190
+msgid   "CAUTION: These options will delete all plugin data and settings when "
+        "the plugin is <strong>deactivated</strong> or <strong>deleted</"
+        "strong>. By enabling any of these options, you agree to be solely "
+        "responsible for any loss of data or any other consequences thereof."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:247
+msgid   "CAUTION: This option will delete all plugin data and settings "
+        "<strong>on all sites</strong> when the plugin is <strong>network "
+        "deactivated</strong>. By enabling the option, you agree to be solely "
+        "responsible for any loss of data or any other consequences thereof."
+msgstr  ""
+
+#: lib/admin/file-edit.php:148 lib/admin/file-add.php:114
+#: lib/admin/files.php:463 lib/admin/file-remove.php:64
+msgid   "Cancel"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:81
+msgid   "Check the settings on the <strong>Groups > File Access</strong> page "
+        "and adjust them if needed."
+msgstr  ""
+
+#: lib/admin/files.php:417
+msgid   "Clear"
+msgstr  ""
+
+#: lib/admin/files.php:275
+msgid   "Click to add a new file"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:122
+msgid   "Content enclosed by this shortcode will only be shown if the current "
+        "user can access the file. The file is identified by the required "
+        "<code>file_id</code> attribute."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:256
+msgid   "Copyright <a href=\"http://www.itthinx.com/\">itthinx</a> - This "
+        "plugin is provided subject to the license granted. Unauthorized use "
+        "and distribution is prohibited."
+msgstr  ""
+
+#: lib/admin/file-edit.php:200 lib/admin/file-add.php:156
+msgid   "Could not upload the file."
+msgstr  ""
+
+#: lib/admin/files.php:570
+#, php-format
+msgid   "Date: %s"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:243
+msgid   "Delete all <em>Groups File Access</em> plugin data on <strong>all "
+        "sites</strong> when the plugin is <strong>network deactivated</"
+        "strong>."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:188
+msgid   "Delete all <em>Groups File Access</em> plugin data when the plugin "
+        "is <strong>deactivated</strong>? This option is useful to clean up "
+        "after testing."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:179
+msgid   "Delete data"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:183
+msgid   "Delete plugin data when the plugin is <strong>deleted</strong>?"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:168
+msgid   "Delete replaced files"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:192
+msgid   "Deletion will only take effect if the <strong>Groups</strong> plugin "
+        "is activated."
+msgstr  ""
+
+#: lib/admin/file-edit.php:106
+#: lib/admin/class-groups-file-access-scan-import.php:240
+#: lib/admin/file-add.php:71 lib/admin/files.php:378 lib/admin/files.php:402
+msgid   "Description"
+msgstr  ""
+
+#: lib/admin/file-remove.php:57
+#, php-format
+msgid   "Description : %s"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:124
+msgid   "Description of fields:"
+msgstr  ""
+
+#: lib/admin/files.php:552 lib/admin/files.php:558
+msgid   "ERROR"
+msgstr  ""
+
+#: lib/admin/files.php:382 lib/admin/files.php:588
+msgid   "Edit"
+msgstr  ""
+
+#: lib/admin/file-edit.php:67
+msgid   "Edit a file"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:125
+msgid   "Example: <code>[groups_can_access_file file_id=\"3\"]This is shown "
+        "if the user can access the file.[/groups_can_access_file]</code>"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:147
+msgid   "Example: <code>[groups_file_info file_id=\"7\" show=\"name\"]</code>"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:193
+msgid   "Example: <code>[groups_file_link file_id=\"78\"]</code>"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:173
+msgid   "Example: <code>[groups_file_url file_id=\"456\"]</code>"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:228
+msgid   "Example: <code>[groups_file_visibility visibility=\"always\"]</code>"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:222
+msgid   "Exclude existing file entries"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:199
+msgid   "Export"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:193
+msgid   "Export Files"
+msgstr  ""
+
+#: lib/admin/file-edit.php:94 lib/admin/file-add.php:60
+msgid   "File"
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:552
+#: lib/core/class-groups-file-access.php:553
+#: lib/core/class-groups-file-access.php:573
+#: lib/core/class-groups-file-access.php:574
+#: lib/core/class-groups-file-access.php:629
+msgid   "File Access"
+msgstr  ""
+
+#: lib/admin/files.php:394
+msgid   "File Id"
+msgstr  ""
+
+#: lib/admin/file-edit.php:72
+#, php-format
+msgid   "File Id: %d"
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:537
+#: lib/core/class-groups-file-access.php:538
+msgid   "File Import"
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:523
+#: lib/core/class-groups-file-access.php:524
+#: lib/core/class-groups-file-access.php:593
+#: lib/core/class-groups-file-access.php:628 lib/admin/files.php:269
+msgid   "Files"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:46 lib/views/class-gfa-help.php:93
+msgid   "Files are managed in the <strong>Groups > Files</strong> section. "
+        "Here you can add, edit and delete files that you want to make "
+        "accessible to group members."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:109
+#, php-format
+msgid   "Files are uploaded to the <code>%s</code> directory."
+msgstr  ""
+
+#: lib/admin/files.php:390 lib/views/class-gfa-help.php:60
+#: lib/views/class-gfa-help.php:107
+msgid   "Filters"
+msgstr  ""
+
+#: lib/admin/files.php:486
+msgid   "Group"
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:625 lib/admin/file-edit.php:122
+#: lib/admin/class-groups-file-access-scan-import.php:264
+#: lib/admin/file-add.php:88
+msgid   "Groups"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:90
+#: lib/admin/class-groups-file-access-admin.php:231
+#: lib/views/class-gfa-help.php:38 lib/views/class-gfa-help.php:68
+msgid   "Groups File Access"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:105
+#, php-format
+msgid   "Here you can import file data in bulk from a text file, after "
+        "uploading your files to <code>%s</code> via FTP."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:112
+#, php-format
+msgid   "I could not create the <code>%s</code> directory. Your web server "
+        "must have write permissions on its parent directory."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:119
+#, php-format
+msgid   "I could not create the <code>.htaccess</code> file in the <code>%s</"
+        "code> directory. This file is required to assure that unauthorized "
+        "access to files is avoided."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:126
+#, php-format
+msgid   "I could not create the <code>index.html</code> file in the <code>%s</"
+        "code> directory. This file is used to hide the directory contents "
+        "from prying eyes."
+msgstr  ""
+
+#: lib/admin/files.php:376
+msgid   "Id"
+msgstr  ""
+
+#: lib/admin/file-edit.php:96
+msgid   "If a new file is chosen here, the current file will be "
+        "<strong>deleted</strong>."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:171
+msgid   "If checked, existing files that are replaced by new ones are deleted."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:159
+msgid   "If checked, no changes will be made."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:225
+msgid   "If checked, only new files that do not already have an existing "
+        "entry are included."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:245
+msgid   "If indicated, the same description is used for all new files that "
+        "are found."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:78
+msgid   "If you have not done so already, install and activate the <a href="
+        "\"http://www.itthinx.com/plugins/groups/\">Groups</a> plugin. Go to "
+        "<strong>Plugins > Add New</strong>, search for <em>Groups</em> and "
+        "click <em>Install Now</em>. You can also download the plugin <a href="
+        "\"http://wordpress.org/extend/plugins/groups/\">here</a> and upload "
+        "it to your site."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:52 lib/views/class-gfa-help.php:99
+msgid   "If you want to restrict access to a file to registered users, add "
+        "the file using the <strong>New File</strong> option at the top of "
+        "the screen. Once the file is added, tick the checkbox for the "
+        "desired file in the file list, select the <em>Registered</em> group "
+        "on top of the list and use the <strong>Add</strong> button to assign "
+        "the group to the file. Now any registered user who is logged in can "
+        "access the file (provided the access limit has not been exceeded by "
+        "the user)."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:55 lib/views/class-gfa-help.php:102
+msgid   "If you want to restrict access to a file to users that belong to a "
+        "certain group, create the group, add the desired users to the group "
+        "and assign the group to the files that the group should be able to "
+        "access. More than one group can be assigned to a file."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:84
+msgid   "If your setup is adequate, you can manage files controlled by the "
+        "plugin on the <strong>Groups > Files</strong> page."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:178
+msgid   "Import"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:102
+msgid   "Import Files"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:492
+msgid   "Import failed (error opening temporary file)."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:269
+msgid   "Indicate one or more names of groups that should have access to the "
+        "files. Separate multiple names by comma. The groups do not need to "
+        "exist now, but they must exist when the files are imported."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:489
+#, php-format
+msgid   "Invalid lines: %s"
+msgstr  ""
+
+#: lib/admin/file-edit.php:79 lib/admin/files.php:566
+#, php-format
+msgid   "Link: %s"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:44 lib/views/class-gfa-help.php:91
+msgid   "Managing files"
+msgstr  ""
+
+#: lib/admin/file-edit.php:111
+#: lib/admin/class-groups-file-access-scan-import.php:252
+#: lib/admin/file-add.php:77 lib/admin/files.php:410
+msgid   "Max #"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:257
+msgid   "Maximum number of accesses per user. Unlimited when empty or 0."
+msgstr  ""
+
+#: lib/admin/file-edit.php:101 lib/admin/file-add.php:65
+#: lib/admin/files.php:377 lib/admin/files.php:398
+msgid   "Name"
+msgstr  ""
+
+#: lib/admin/file-remove.php:56
+#, php-format
+msgid   "Name : %s"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:239
+msgid   "Network delete data"
+msgstr  ""
+
+#: lib/admin/files.php:275
+msgid   "New File"
+msgstr  ""
+
+#: lib/admin/file-edit.php:40 lib/admin/file-edit.php:181
+#: lib/admin/file-remove.php:38
+msgid   "No such file."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:154
+msgid   "Notification email message"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:144
+msgid   "Notification email subject"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:132
+msgid   "Notifications"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:134
+msgid   "Notify the admin"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:138
+msgid   "Notify the site administrator"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:99
+msgid   "Ok I got it, remove it from here."
+msgstr  ""
+
+#: lib/admin/files.php:379 lib/admin/files.php:406
+msgid   "Path"
+msgstr  ""
+
+#: lib/admin/file-remove.php:58
+#, php-format
+msgid   "Path : %s"
+msgstr  ""
+
+#: lib/admin/file-edit.php:75
+#, php-format
+msgid   "Path: %s"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:242
+msgid   "Please refer to the <a href=\"http://www.itthinx.com/documentation/"
+        "groups-file-access/\">documentation pages</a> for details on the "
+        "plugin&rsquo;s API."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:231
+msgid   "Predefined fields: These can be left empty, otherwise the value will "
+        "be used in common for all scanned files."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:169
+msgid   "Redirect"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:173
+msgid   "Redirect to the WordPress login when a user who is not logged in "
+        "tries to access a file?"
+msgstr  ""
+
+#: lib/admin/files.php:383 lib/admin/files.php:457 lib/admin/files.php:482
+#: lib/admin/files.php:592 lib/admin/file-remove.php:61
+msgid   "Remove"
+msgstr  ""
+
+#: lib/admin/file-remove.php:49
+msgid   "Remove a file"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:473
+#, php-format
+msgid   "Results after importing (test only) from <code>%s</code> :"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:462
+#, php-format
+msgid   "Results after importing from <code>%s</code> :"
+msgstr  ""
+
+#: lib/admin/files.php:427
+msgid   "Results per page"
+msgstr  ""
+
+#: lib/admin/file-edit.php:146
+#: lib/admin/class-groups-file-access-admin.php:197
+#: lib/admin/class-groups-file-access-admin.php:255
+msgid   "Save"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:277
+msgid   "Scan"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:213
+msgid   "Scan for Files"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:140
+msgid   "Sends a notification email to the site administrator when a file has "
+        "been accessed."
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:592
+#: lib/core/class-groups-file-access.php:605
+msgid   "Settings"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:74
+msgid   "Setup"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:112
+msgid   "Shortcodes"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:114
+msgid   "Shortcodes are used on posts or pages to render links to files, "
+        "provide information about files and conditionally show content to "
+        "users depending on whether they are allowed to access a file."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:139
+msgid   "Shows content enclosed by the shortcode only when the current user "
+        "can not access the given file. Attributes and usage are the same as "
+        "for the <code>[groups_can_access_file]</code> shortcode."
+msgstr  ""
+
+#: lib/admin/files.php:568
+#, php-format
+msgid   "Size: %s"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:156
+msgid   "Test only"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:117
+msgid   "The <code>[groups_file_link]</code> shortcode described below, "
+        "renders the actual link to a file that authorized users can click to "
+        "download the file."
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:148
+#, php-format
+msgid   "The <strong>Groups File Access</strong> plugin could not create the "
+        "%s directory. Your server must have write permissions on its parent "
+        "directory."
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:152
+#, php-format
+msgid   "The <strong>Groups File Access</strong> plugin could not create the ."
+        "htaccess file in the %s directory. This file is required to assure "
+        "that unauthorized access to files is avoided."
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:180
+#, php-format
+msgid   "The <strong>Groups File Access</strong> plugin could not create the "
+        "<code>%s</code> table."
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:155
+#, php-format
+msgid   "The <strong>Groups File Access</strong> plugin could not create the "
+        "index.html file in the %s directory. This file is used to hide the "
+        "directory contents from prying eyes."
+msgstr  ""
+
+#: lib/core/class-groups-file-access.php:503
+msgid   "The <strong>Groups File Access</strong> plugin requires the <a href="
+        "\"http://www.itthinx.com/plugins/groups/\" target=\"_blank\">Groups</"
+        "a> plugin. Please install and activate it."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:118
+msgid   "The accepted file-format is a plain text file with values separated "
+        "by tabs provided on one line per file and in this order:"
+msgstr  ""
+
+#: lib/admin/file-edit.php:89
+msgid   "The current file can be replaced by a new file. You can select a new "
+        "file below."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:158
+msgid   "The default message is:"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:148
+msgid   "The default subject is:"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:123
+#, php-format
+msgid   "The directory listing is hidden through an <code>index.html</code> "
+        "in <code>%s</code>."
+msgstr  ""
+
+#: lib/admin/file-edit.php:193
+#, php-format
+msgid   "The file %s already exists but it is not related to this entry. The "
+        "existing file is not replaced and the current file for this entry is "
+        "maintained."
+msgstr  ""
+
+#: lib/admin/file-add.php:153
+#, php-format
+msgid   "The file %s already exists."
+msgstr  ""
+
+#: lib/admin/file-edit.php:207 lib/admin/file-add.php:190
+msgid   "The filename is not acceptable."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:149
+#, php-format
+msgid   "The files must have been uploaded to the <code>%s</code> directory "
+        "before starting to import."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:96
+msgid   "The following information is also available on the Help tab."
+msgstr  ""
+
+#: lib/admin/file-edit.php:113 lib/admin/file-add.php:79
+msgid   "The maximum number of allowed accesses to the file per user. Use 0 "
+        "for unlimited accesses."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:163
+msgid   "The message format is HTML. Use &lt;br/&gt; for line breaks."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:235
+msgid   "The names for file entries are automatically derived from their "
+        "filename."
+msgstr  ""
+
+#: lib/admin/file-edit.php:212 lib/admin/file-add.php:197
+msgid   "The upload directory does not seem to exist. Please review the "
+        "settings under File Access."
+msgstr  ""
+
+#: lib/admin/file-edit.php:137 lib/admin/file-add.php:103
+msgid   "There are no groups. At least one group must exist."
+msgstr  ""
+
+#: lib/admin/files.php:598
+msgid   "There are no results."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:164
+msgid   "These default tokens can be used in the subject and message: "
+        "[file_path] [file_url] [site_title] [site_url] [username]."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:191
+#, php-format
+msgid   "They will not delete any files in the <code>%s</code> directory."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:248
+msgid   "This option will not delete any files that have been uploaded to the "
+        "sites."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:249
+msgid   "This option will only take effect if the <strong>Groups</strong> "
+        "plugin is activated."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:225
+msgid   "This shortcode allows to switch the default visibility setting for "
+        "those shortcodes that provide a <code>visibility</code> attribute. "
+        "The shortcode can be used multiple times on a page or post and will "
+        "affect the shortcodes below it unless it is used again."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:144
+msgid   "This shortcode renders information about a file including the name, "
+        "description, maximum number of allowed accesses per user, consumed "
+        "and remaining number of accesses for the current user and the file "
+        "id."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:190
+msgid   "This shortcode renders links to files. An authorized user can click "
+        "on a link to download the related file."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:170
+msgid   "This shortcode renders the URL that serves the file. An authorized "
+        "user can visit the URL to download the file."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:215
+#, php-format
+msgid   "This will create a text file (in the supported import file-format) "
+        "with current data for all files in the <code>%s</code> folder."
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-scan-import.php:195
+msgid   "This will create a text file (in the supported import file-format) "
+        "with current data for all files managed in the <strong>Groups > "
+        "Files</strong> section."
+msgstr  ""
+
+#: lib/admin/file-edit.php:77 lib/admin/files.php:564
+#, php-format
+msgid   "URL: %s"
+msgstr  ""
+
+#: lib/admin/class-groups-file-access-admin.php:105
+msgid   "Uploads"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:62 lib/views/class-gfa-help.php:109
+msgid   "Use the filters to restrict the files displayed in the file list to "
+        "those that match the given criteria. Note that the filter settings "
+        "are persistent, i.e. if you leave the screen or log out and come "
+        "back, the same settings will be in effect. Click the <strong>Apply</"
+        "strong> button to use the filters and the <strong>Clear</strong> "
+        "button to remove all filters."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:87
+msgid   "Use the shortcodes provided by the plugin to embed download links "
+        "for group members on your pages or posts."
+msgstr  ""
+
+#: lib/admin/file-add.php:53
+#, php-format
+msgid   "You can upload files up to <strong>%s</strong>."
+msgstr  ""
+
+#: lib/admin/file-add.php:194
+msgid   "You must upload a file."
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:120
+msgid   "[groups_can_access_file]"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:137
+msgid   "[groups_can_not_access_file]"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:142
+msgid   "[groups_file_info]"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:188
+msgid   "[groups_file_link]"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:168
+msgid   "[groups_file_url]"
+msgstr  ""
+
+#: lib/views/class-gfa-help.php:223
+msgid   "[groups_file_visibility]"
+msgstr  ""
+
+#: lib/admin/files.php:484
+msgid   "to / from"
+msgstr  ""

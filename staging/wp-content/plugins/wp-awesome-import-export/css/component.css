@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon/icomoon.eot?pvm5gj');
+    src:url('../fonts/icomoon/icomoon.eot?#iefixpvm5gj') format('embedded-opentype'),  url('../fonts/icomoon/icomoon.woff?pvm5gj') format('woff'),  url('../fonts/icomoon/icomoon.ttf?pvm5gj') format('truetype'),  url('../fonts/icomoon/icomoon.svg?pvm5gj#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} /* Icons created with icomoon.io/app */
+#awesome-content .tabs {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 1em 0 2em;
+    font-weight: 300;
+}
+/* Nav */
+#awesome-content .tabs nav {
+    text-align: center;
+    width:20%;
+    float:left;
+}
+#awesome-content .tabs nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+}
+#awesome-content .tabs nav ul li {
+    display: block;
+    position: relative;
+    border:2px solid #DDD !important;
+    min-width: 190px
+}
+#awesome-content .tabs nav li.tab-current {
+    /*	border: 1px solid #47a3da;
+            box-shadow: inset 0 2px #47a3da;*/
+    border: 1px solid #E86850;
+    box-shadow: inset 0 2px #E86850;
+    border-bottom: none;
+    z-index: 100;
+}
+#awesome-content .tabs nav li.tab-current:before, #awesome-content .tabs nav li.tab-current:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    right: 100%;
+    bottom: 0;
+    width: 1000px;
+}
+#awesome-content .tabs nav li.tab-current:after {
+    right: auto;
+    left: 100%;
+    width: 4000px;
+}
+#awesome-content .tabs nav a {
+    color: #727272;
+    display: block;
+    font-size: 1.2em;
+    line-height: 2.5;
+    padding: 0 1em;
+    white-space: nowrap;
+    text-decoration:none;
+}
+#awesome-content .tabs nav a:hover {
+    background:#E86850;
+    color:#fff;
+}
+#awesome-content .tabs nav li.tab-current a {
+    /*	background:#1ABC9C;*/
+    background:#E86850;
+    color: #fff;
+    text-decoration:none;
+}
+#awesome-content .err_msg_file{
+    color: red;
+    text-align: center;
+}
+/* Icons */
+#awesome-content .tabs nav a:before {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: none;
+    font-weight: normal;
+    font-variant: normal;
+    font-family: 'icomoon';
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    margin: -0.25em 0.4em 0 0;
+}
+.icon-food:before {
+    content: "\e600";
+}
+.icon-lab:before {
+    content: "\e601";
+}
+.icon-cup:before {
+    content: "\e602";
+}
+.icon-truck:before {
+    content: "\e603";
+}
+.icon-shop:before {
+    content: "\e604";
+}
+/* Content */
+#awesome-content .wp-awesome-content {
+    border:2px solid #DDD;
+    border-top:none;
+    width:78.7%;
+    float:left;
+}
+#awesome-content .wp-awesome-content section {
+    font-size: 1.25em;
+    display: block;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+#awesome-content .wp-awesome-content section:before, .wp-awesome-content section:after {
+    content: '';
+    display: table;
+}
+#awesome-content .wp-awesome-content section:after {
+    clear: both;
+}
+/* Fallback example */
+#awesome-content .no-js .wp-awesome-content section {
+    display: block;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #47a3da;
+}
+#awesome-content .wp-awesome-content section{
+    display: block;
+    background:#34495E !important;
+    color:#FFFFFF;
+    padding:0px !important;
+}
+
+#awesome-content .tabElements >li>a{
+    background:#34495E;
+    color:#FFF;
+    text-align:left;
+    font-weight: bold;
+    width: 175px;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 52.375em) {
+   #awesome-content .tabs nav a span {
+        display: none;
+    }
+    #awesome-content .tabs nav a:before {
+        margin-right: 0;
+    }
+    
+}
+@media screen and (max-width: 32em) {
+    #awesome-content .tabs nav ul,  #awesome-content .tabs nav ul li a {
+        width: 100%;
+        padding: 0;
+    }
+    #awesome-content  .tabs nav ul li {
+        width: 20%;
+        width: calc(20% + 1px);
+        margin: 0 0 0 -1px;
+    }
+    #awesome-content .tabs nav ul li:last-child {
+        border-right: none;
+    }
+   
+}

@@ -1,0 +1,286 @@
+
+.woocommerce-account{
+
+	.woocommerce{
+
+		.login-title{
+			margin-top: 0;
+			color: $grey;
+			display: block;
+			position: relative;
+
+			&:after{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 5px;
+				background: aqua;
+			}
+		}
+
+		form.login,
+		form.lost_reset_password{
+			background: $white;
+			border: 0;
+			border-bottom: 2px solid darken($white, 15%);
+			margin-bottom: 4rem;
+			padding: 2rem;
+
+			p{
+				color: $grey;
+			}
+
+			input.button{
+				background: $cpurple;
+				color: $white;
+				margin: 1rem 0;
+
+				&:hover{
+					background: $cplum;
+				}
+			}
+
+			.lost_password{
+
+				a{
+					color: $cpurple;
+
+					&:hover{
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+		.lost_reset_password{
+
+		}
+	}
+}
+
+.woocommerce .woocommerce-message .button:hover{
+  background:#2eaa57;
+}
+.woocommerce-cart table.cart td.actions .button:hover{
+  background:#2eaa57;
+}
+.woocommerce-cart table.cart td.actions .coupon .button:hover{
+  background:#2eaa57;
+}
+.woocommerce table.shop_table .cart_item .product-name dl.variation dt, .woocommerce table.shop_table .cart_item .product-name dl.variation dd{
+  margin-left:0px;
+}
+.woocommerce table.shop_table .cart_item .product-name dl.variation dt, .woocommerce table.shop_table .cart_item .product-name dl.variation dd p{
+  line-height:1.5;
+}
+.woocommerce{
+
+	.archive-block{
+
+		a.added_to_cart{
+			color: $white !important;
+
+			&:hover{
+				text-decoration: none;
+				margin-left: 0.5rem;
+			}
+		}
+	}
+    .bundle_wrap{
+      clear:both;
+    }
+	.bundle_form .product-addon, .variations_form .product-addon {
+		width:100%;
+	}
+	.bundled_item_optional_content {
+		display:none;
+	}
+	h3.addon-name {
+	  color: #4d4d4d!important;
+	  line-height: 1.5;
+	  margin-bottom: 0;
+	  font-size:0.875em!important;
+	  font-weight:700!important;
+	}
+	.product-addon-cd{
+
+		h3{
+			padding: 0;
+			margin: 0;
+			font-size: 1rem !important;
+		}
+
+		.addon-description{
+
+			p{
+				padding: 0;
+				margin: 0;
+				font-size: 1rem !important;
+			}
+		}
+
+		&:before{
+			content: '';
+			display: block;
+			clear: both;
+		}
+	}
+
+	.product_meta{
+		a{
+			color: $cplum;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+
+	.variations_form{
+		padding-top: 30px;
+
+		.variations{
+
+			.label{
+				padding-top: 0;
+			}
+
+			.reset_variations{
+				color: $cplum;
+
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.product_form__wrap {
+		overflow: hidden;
+
+		.product_form__left {
+			width: 100%;
+
+			@media (min-width: $screen-md-min) {
+		  	  	width: 48%;
+		  	  	float: left;
+
+			}
+		}
+		.product_form__right {
+			width: 100%;
+			text-align: right;
+
+			@media (min-width: $screen-md-min) {
+		  	  	width: 48%;
+		  	  	float: right;
+
+			}
+
+		}
+		.who_content, .who_content_error {
+	      display:none;
+	  	  width: 100%;
+	    }
+	    .required-product-addon {
+	        text-align:left;
+        }
+	}
+
+}
+
+.conference-page{
+
+	.add_to_cart_vids{
+		padding: 0 !important;
+		border: none !important;
+		border-top: 1px solid darken($lgrey, 10%) !important;
+		position: relative;
+		height: 75px;
+
+		.add_to_cart_button{
+			position: relative;
+			margin-top: 10px;
+			margin-right: 10px;
+			left: 0;
+		}
+	}
+}
+
+
+.add-cart-block{
+	padding: 1rem 2rem 2rem !important;
+
+	h1, h2, h3, h4, p{
+		color: $white !important;
+	}
+}
+
+.already-member{
+	font-size: 1rem !important;
+	margin-bottom: 0 !important;
+}
+
+div.product.product-type-variable-subscription {
+	p.price {
+		display:none;
+	}
+}
+
+.wc-proceed-to-checkout {
+  clear: both;
+}
+
+#outer-wrap {
+	.page {
+		.entry-content {
+			.payment_method_smartdebit {
+
+				ol#dd-table {
+					background: rgba(0,0,0,0.05);
+					display: table;
+					width:100%;
+					padding: 0;
+
+					li {
+						display: table-row;
+						margin:0;
+						padding: 10px 0;
+						list-style: none;
+						font-size: 0.85em;
+
+						&:first-child {
+							background: rgba(0,0,0,0.1);
+						}
+						&:nth-child(even) {
+							background: rgba(0,0,0,0.025);
+						}
+
+						span {
+							display: table-cell;
+							padding: 0.25rem;
+							text-align: center;
+							margin-right: 1px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+div#dd-conf div {
+	padding:10px;
+}
+.dd-header {clear:both;width:100%;}
+.dd-left {float:left;width:50%;display:block;}
+.dd-right {float:right;width:50%;display:block;}
+.dd-footer {clear:both;display:block;width:100%}
+.dd-header img {
+	width:130px;
+}
+
+.location_confirmation {
+	label {
+		font-size: 1rem;
+	}
+}

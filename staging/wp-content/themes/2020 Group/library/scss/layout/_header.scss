@@ -1,0 +1,733 @@
+.page-header{
+	padding: 1rem 0;
+
+  .toggle{
+  	position: absolute;
+  	right: 15px;
+  	top: 15px;
+  	display: block;
+    width: 35px;
+    height: 30px;
+    margin: 20px auto 0;
+    //display: none;
+  }
+  
+  .toggle span:after,
+  .toggle span:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+  }
+  
+  .toggle span:after{
+  	top: 9px;
+  }
+  
+  .toggle span{
+    position: relative;
+    display: block;
+  }
+  
+  .toggle span,
+  .toggle span:after,
+  .toggle span:before {
+    width: 100%;
+    height: 5px;
+    background-color: $dgrey;
+    backface-visibility: hidden;
+    @include border-radius(2px);
+  }
+
+	.main-logo{
+		// padding-left: 1em;
+		// background: #fba8a8;
+
+		a{
+
+			.logo{
+				// margin-left: 1em;
+				width: 150px;
+			}
+		}
+	}
+
+	.utilities{
+  	display: none;
+  	background: $white;
+  	padding:10px;
+  	margin-top:10px;
+
+		.search-box{
+			//display: none;
+			display: inline-block;
+			@include transition(all, 0.2s, ease-in-out);
+			width: 8%;
+			text-align: center;
+			padding: .4em 0;
+
+			&:hover{
+				background: $cpurple;
+
+				.search{
+					color: $white;
+				}
+			}
+		}
+
+		.header-menu,
+		.header-sec-menu{
+
+			text-align: center;
+
+			.menu{
+				margin: 0;
+				padding: 0;
+
+				li{
+					// display: block;
+          display: inline-block;
+					list-style-type: none;
+
+					a{
+						font-family:  'proxima-nova-soft', $sans-serif;
+						font-weight: 400;
+						text-decoration: none;
+						color: $cgrey;
+					}
+				}
+			}
+			
+      .header-content-filter {
+        background: transparent;
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        
+        dd { position:relative; z-index:9999;}
+        dd, dt, ul, li { margin:0px !important; padding:0px !important; }
+        a, a:visited { color: $cgrey; text-decoration:none; outline:none;}
+        a:hover { color:#5d4617;}
+        dt {
+          margin-right: 5px!important;
+
+          a { position: relative; display:block; padding-right:15px; }
+          a span {cursor:pointer; display:block; padding:5px;}
+          a:after {
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 5px 4px 0 4px;
+            border-color: #7d8585 transparent transparent transparent;
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            margin-top: -2px;
+          }
+        }
+        
+        dd ul { background:$cskydark; display:none; padding:5px 0px; position:absolute; /* top:2px; */ width:auto; min-width:170px; list-style:none; text-align: left;}
+        dd ul li a { padding:5px; display:block;}
+        dd ul li a:hover { background-color: darken($cskytint, 15%); }
+        dd ul li.active a {
+          background-color: darken($cskytint, 15%);
+          color: darken($cgrey, 20%);
+          position: relative;
+          
+          &:after {
+            position: absolute;
+            right: 5px;
+            margin-top: 3px;
+          	font-family: 'icomoon';
+            content: "\e611";
+          	speak: none;
+          	font-style: normal;
+          	font-weight: normal;
+          	font-variant: normal;
+          	text-transform: none;
+          	line-height: 1;
+          
+          	/* Better Font Rendering =========== */
+          	-webkit-font-smoothing: antialiased;
+          	-moz-osx-font-smoothing: grayscale;
+          }
+        }
+      }
+
+      .tp_dropdown {
+//         padding:0.4rem 0!important;
+        display: inline-block;
+        text-align:left;
+
+        a {
+          color:$cgrey;
+          @include font-size(15px);
+        }
+
+        dt a {
+          background: transparent;
+          border:0;
+          position: relative;
+          width: auto;
+
+          &:after {
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 5px 4px 0 4px;
+            border-color: $cgrey transparent transparent transparent;
+            position: absolute;
+            top:50%;
+            right:5px;
+            margin-top: -2px;
+          }
+        }
+
+        dd ul {
+          background-color:$cskydark;
+          border:0;
+          screen-lg-min-width:140px;
+          min-width:140px;
+
+          a {
+            &:hover, &:focus {
+              background-color: darken($cskytint, 15%);
+              border: 0;
+              color: $cgrey;
+            }
+          }
+        }
+      }
+
+      #tr_credit { display:inline; }
+
+
+			.currency_switch_form{
+				margin:0;
+			}
+			.widget_wc_aelia_currencyswitcher_widget{
+				display:inline-block;
+				margin-right: 10px;
+				padding-right: 20px;
+
+        &:after {
+          content: '';
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5px 4px 0 4px;
+          border-color: $cgrey transparent transparent transparent;
+          position: absolute;
+          top:50%;
+          right:5px;
+          margin-top: -2px;
+        }
+			}
+			#aelia_cs_currencies {
+ 				background-color: transparent;
+				border: 0;
+				color: #7d8585;
+				margin:0;
+				padding:0 1.6em;
+			}
+		}
+
+    @media (min-width: $screen-md-min) {
+
+      background: transparent;
+      text-align: right;
+      display: block;
+      padding:0;
+      margin-top: 0;
+
+      .header-menu {
+        margin-bottom: 10px;
+      }
+
+  		.search-box{
+  		  @include border-radius(20px);
+  		  cursor: pointer;
+  			display: inline-block;
+  			background: $cskydark;
+  			padding: .2rem .5rem;
+  			@include transition(all, 0.2s, ease-in-out);
+  			width: auto;
+
+  			.search {
+    			color: $cgrey;
+    			font-size: 14px;
+  			}
+
+  			&:hover{
+  				background: $cpurple;
+
+  				.search{
+  					color: $white;
+  				}
+  			}
+  		}
+
+  		.header-menu,
+  		.header-sec-menu{
+
+
+  			.menu{
+  				margin: 0;
+  				padding: 0;
+
+  				li{
+  					display: inline;
+  					list-style-type: none;
+
+  					a{
+  						font-family:  'proxima-nova-soft', $sans-serif;
+  						font-weight: 400;
+  						text-decoration: none;
+  						color: $cgrey;
+  					}
+  				}
+  			}
+  			.currency_switch_form{
+  				margin:0;
+  			}
+  			.widget_wc_aelia_currencyswitcher_widget{
+  				display:inline-block;
+  			}
+  			#aelia_cs_currencies {
+   				background-color: transparent;
+  				border: 0;
+  				color: #7d8585;
+  				margin:0;
+  				padding:0 1.6em;
+  			}
+  		}
+
+			.header-menu {
+  			display:block;
+  			text-align: right;
+			}
+
+			.header-sec-menu {
+				display: inline-block;
+  			background: $cskydark;
+  			/*padding: 0.4rem 1.0rem;*/
+  			@include border-radius(20px);
+        text-align: right;
+
+        .menu {
+          li {
+            display: inline-block;
+          }
+        }
+      }
+
+      .tp_dropdown {
+        margin-right: 10px!important;
+        dt a {
+          background: transparent;
+        }
+        dd ul {
+          top: auto;
+        }
+      }
+
+    }
+	}
+
+  #menu-header-wrapper {
+    display: inline-block;
+    width: 90%;
+
+    @media (min-width: $screen-md-min) {
+      width: auto;
+    }
+  }
+
+	#menu-header-menu{
+		display: inline-block; /* IE8-10 */
+		width: 100%;
+
+		li{
+			font-size: 14px;
+			display:inline-block;
+			width: 32%;
+
+      a {
+        background: $cskydark;
+        display: block;
+        padding: 0.4rem 0.2rem;
+        text-align: center;
+      }
+		}
+
+		&.loggedin {
+  		li {
+    		width: 49%;
+    		margin-bottom: 7px;
+  		}
+		}
+
+    @media (max-width: $screen-sm-max) {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-align: stretch;
+      -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+
+      li {
+        flex: 1;
+
+        &.basket.active {
+          flex-grow: 2;
+        }
+      }
+    }
+
+    @media (min-width: 481px) {
+
+  		&.loggedin {
+    		li {
+      		width: 24%;
+      		margin-bottom: 0;
+    		}
+  		}
+
+    }
+
+    @media (min-width: $screen-md-min) {
+
+      width: auto;
+
+      li {
+        width: auto;
+     		margin: 0px;
+
+        a {
+          display: inline;
+          @include border-radius(20px);
+          text-align: left;
+          padding: 0.4rem 0.9rem;
+        }
+        &.logout a{
+
+  				&:hover{
+  					background: $cpurple;
+  					color: $white;
+  				}
+  			}
+
+  			&.mydash a{
+
+  				&:after{
+  					content: '\e605';
+  					font-family: 'icomoon';
+  	        font-size: 18px;
+  	        speak: none;
+  	        font-style: normal;
+  	        font-weight: normal;
+  	        font-variant: normal;
+  	        text-transform: none;
+  	        padding: 0 0 0 0.6rem;
+
+  	        /* Better Font Rendering =========== */
+  	        -webkit-font-smoothing: antialiased;
+  	        -moz-osx-font-smoothing: grayscale;
+  				}
+
+  				&:hover{
+  					background: $cpurple;
+  					color: $white;
+  				}
+  			}
+
+  			&.basket a{
+
+  				&:after{
+  					content: '\e604';
+  					font-family: 'icomoon';
+  	        font-size: 18px;
+  	        speak: none;
+  	        font-style: normal;
+  	        font-weight: normal;
+  	        font-variant: normal;
+  	        text-transform: none;
+  	        padding: 0 0 0 0.6rem;
+
+  	        /* Better Font Rendering =========== */
+  	        -webkit-font-smoothing: antialiased;
+  	        -moz-osx-font-smoothing: grayscale;
+  				}
+
+          &.active,
+  				&:hover {
+  					background: $cgreen;
+  					color: $white;
+  				}
+
+  				&.active:hover {
+    				background: darken($cgreen, 20%);
+  				}
+  			}
+
+  			&.help a{
+
+  				&:after{
+  					content: '\e606';
+  					font-family: 'icomoon';
+  	        font-size: 18px;
+  	        speak: none;
+  	        font-style: normal;
+  	        font-weight: normal;
+  	        font-variant: normal;
+  	        text-transform: none;
+  	        padding: 0 0 0 0.6rem;
+
+  	        /* Better Font Rendering =========== */
+  	        -webkit-font-smoothing: antialiased;
+  	        -moz-osx-font-smoothing: grayscale;
+  				}
+
+  				&:hover{
+  					background: $calert;
+  					color: $white;
+  				}
+  			}
+  		}
+
+  		&.loggedin {
+    		li {
+      		width: auto;
+      		margin-bottom: 0;
+    		}
+  		}
+
+    }
+	}
+
+
+	#menu-header-secondary-menu{
+		display: inline-block;
+
+		li{
+			font-size: 15px;
+			padding: 0 5px;
+
+			a:hover{
+				color: $cpurple;
+				border-bottom: 2px solid $cpurple;
+			}
+		}
+	}
+
+  @media (min-width: $screen-md-min) {
+		#menu-header-secondary-menu{
+
+		  li {
+        padding: 0 1rem 0 0;
+      }
+    }
+  }
+}
+
+
+.page-id-191 .page-header{
+
+	#menu-header-menu{
+
+		li.help{
+
+			a{
+				background: $calert;
+				color: $white;
+			}
+		}
+	}
+}
+
+.page-header #menu-header-secondary-menu{
+
+	.current-menu-item,
+	.current-page-ancestor{
+
+		a{
+			color: $cpurple;
+			border-bottom: 2px solid $cpurple;
+		}
+	}
+}
+
+
+
+
+@media (min-width: $screen-md-min) {
+
+	.page-nav-wrap{
+		margin-bottom: 2rem;
+	}
+
+	.page-header{
+		padding: 2rem 0;
+
+		.toggle{
+			display: none;
+		}
+
+		.main-logo{
+
+			a{
+
+				.logo{
+					width: 183px;
+				}
+			}
+
+		}
+
+		
+		.utilities{
+			text-align: right;
+			
+			//.search-link{
+				//display: none;
+				//display: inline-block;
+				//vertical-align: bottom;
+						
+				.search-box{
+					display: inline-block;
+					background: $cskydark;
+					padding: 0.2rem 0.5rem;
+					@include border-radius(20px);
+					vertical-align: middle;
+					cursor: pointer;
+										
+					.search{
+						// display: inline-block;
+						float: left;
+						font-size: 14px;
+						color: $cgrey;
+						//width: 20px; 
+						height: 25px; 
+						line-height: 25px; 
+						text-align: center; 
+					}
+					
+					#searchform{
+						display: inline-block;
+						display: none;
+						float: right; 
+						margin: 0; 
+						padding: 0;
+						
+						label{
+							display: none;	
+						} 
+						
+						input{
+							font-family: 'proxima-nova-soft', $sans-serif;	
+							font-weight: 400;
+							text-decoration: none;
+							color: $cgrey;
+						}
+						
+						#s{
+							height: 25px;
+							float: left;
+							width: 70%;
+							margin: 0;
+						}
+						
+						#searchsubmit{
+							float: right;
+							display: block; 
+							width: 30%; 
+							height: 25px; 
+							border: 0;
+						}
+					}
+				}
+			//}
+			
+			.header-menu {
+  			display:block;
+			}
+			
+			.header-sec-menu {
+				display: inline-block;
+  			background: $cskydark;
+  			/*padding: 0.4rem 1.0rem;*/
+  			@include border-radius(20px);
+  			padding-left: 20px;
+  			
+        .header-content-filter {
+          background: $cskydark;
+        }
+        
+        .tp_dropdown {
+//           padding:0.4rem!important;
+          display: inline-block;
+          text-align:left;
+          
+          a {
+            color:$cgrey;
+            @include font-size(15px);
+          }
+          
+          dt a {
+            background: $cskydark;
+            border:0;
+            position: relative;
+            width: auto;
+            padding-right: 15px;
+            
+            &:after {
+              content: '';
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 5px 4px 0 4px;
+              border-color: $cgrey transparent transparent transparent;
+              position: absolute;
+              top:50%;
+              right:5px;
+              margin-top: -2px;
+            }
+          }
+          
+          dd ul {
+            background-color:$cskydark;
+            border:0;
+            screen-lg-min-width:140px;
+            min-width:140px;
+            
+            a {
+              &:hover, &:focus {
+                background-color: darken($cskytint, 15%);
+                border: 0;
+                color: $cgrey;
+              }
+            }
+          }
+        }
+        
+        #tr_credit { display:inline; }
+			}
+		}
+
+	}
+}
+
+#geo {
+	.close {
+		text-decoration:underline;
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+
+}

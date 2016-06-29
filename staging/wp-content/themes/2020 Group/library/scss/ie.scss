@@ -1,0 +1,21 @@
+.lt-ie9 {
+  .home-intro{
+  	.intro-content{
+      height:650px;
+    }
+    .lower-panel {
+      background: #000;
+    }
+
+  }
+
+  .main-menu ul ul {
+	margin-top: -3px;
+
+	li {
+	}
+  }
+}
+.payment_method_smartdebit label, .payment_method_bacs label {
+  margin-left:0px !important;
+}

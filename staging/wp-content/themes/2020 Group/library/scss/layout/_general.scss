@@ -1,0 +1,779 @@
+body{
+	background-color: $csky;
+	font-family:  'proxima-nova-soft', $sans-serif;
+}
+
+img,
+a img{
+	border: none;
+}
+
+.share-article{
+	color: darken($lgrey, 20%);
+}
+
+.sharing-icons{
+	margin: 0;
+	padding: 0 0 1rem 0;
+
+	li{
+		display: inline;
+		font-size: 1.2rem;
+		line-height: 0;
+		vertical-align: baseline;
+
+		a{
+			background: $grey;
+			color: $white;
+			text-decoration: none;
+			padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+
+			.icon{
+				// vertical-align: middle;
+			}
+		}
+
+		&.fcbk-icon a{background: #3b5998;}
+		&.twtt-icon a{background: #55acee;}
+		&.lnkd-icon a{background: #0976b4;}
+		&.gglp-icon a{background: #dd4b39;}
+	}
+}
+
+.add_to_cart_inline{
+	border: none;
+	/*border-top: 1px solid $grey;*/
+	position: relative;
+	overflow: hidden;
+
+	.amount{
+		display: none;
+	}
+
+	.add_to_cart_button{
+		float: left;
+	}
+}
+
+.hidden {
+  display:none;
+}
+
+
+// general global button styles
+
+.gen-btn{
+	display: block;
+	color: $grey;
+	background: $csky;
+	padding: 0.5rem 2.5rem;
+	text-decoration: none !important;
+	border: none;
+	font-size: 1rem;
+	@include border-radius(3px);
+	border-bottom: 2px solid darken($csky, 15%);
+	position: relative;
+	// additional colours controlled below
+
+  &.btn-large {
+  	font-size: 1.4rem;
+    padding: 1rem 4.5rem;    
+  }
+
+	&:hover{
+		background: darken($csky, 5%);
+	}
+
+	// colours
+
+	&.grey{
+		color: $white;
+		background: $cgrey;
+		border-bottom: 2px solid darken($cgrey, 15%);
+
+		&:hover{
+			background: darken($cgrey, 5%);
+		}
+
+		&:before{
+			border-color: darken($corange, 25%);
+		}
+
+		&:after{
+			color: darken($corange, 25%);
+			border-color: darken($corange, 25%);
+		}
+	}
+
+	&.orange{
+		color: $white;
+		background: $corange;
+		border-bottom: 2px solid darken($corange, 15%);
+
+		&:hover{
+			background: darken($corange, 5%);
+		}
+
+		&:before{
+			border-color: darken($corange, 25%);
+		}
+
+		&:after{
+			color: darken($corange, 25%);
+			border-color: darken($corange, 25%);
+		}
+	}
+
+	&.green{
+		color: $white;
+		background: $cgreen;
+		border-bottom: 2px solid darken($cgreen, 15%);
+
+		&:hover{
+			background: darken($cgreen, 5%);
+		}
+
+		&:before{
+			border-color: darken($cgreen, 25%);
+		}
+
+		&:after{
+			color: darken($cgreen, 25%);
+			border-color: darken($cgreen, 25%);
+		}
+	}
+
+	&.blue{
+		color: $white;
+		background: $cdblue;
+		border-bottom: 2px solid darken($cdblue, 15%);
+
+		&:hover{
+			background: darken($cdblue, 5%);
+		}
+
+		&:before{
+			border-color: darken($cdblue, 25%);
+		}
+
+		&:after{
+			color: darken($cdblue, 25%);
+			border-color: darken($cdblue, 25%);
+		}
+	}
+
+	&.orange-hover{
+
+		&:hover{
+			color: $white;
+			background: darken($corange, 5%);
+		}
+
+		&:after{
+			color: darken($csilver, 5%);
+			border-color: darken($csilver, 5%);
+		}
+	}
+
+	&.silver{
+		color: $white;
+		background: $csilver;
+		border-bottom: 2px solid darken($csilver, 15%);
+
+		&:hover{
+			background: darken($csilver, 5%);
+		}
+
+		&:before{
+			border-color: darken($csilver, 25%);
+		}
+
+		&:after{
+			color: darken($csilver, 25%);
+			border-color: darken($csilver, 25%);
+		}
+	}
+
+	&.acca{
+		color: $white;
+		background: $acca;
+		// border-bottom: 2px solid darken($acca, 15%);
+		border-bottom: none;
+
+		&:hover{
+			background: darken($acca, 5%);
+		}
+
+		&:before{
+			border-color: darken($acca, 25%);
+		}
+
+		&:after{
+			color: darken($acca, 25%);
+			border-color: darken($acca, 25%);
+		}
+	}
+
+	// icons
+
+	&.icon{
+		padding: 16px 70px 16px 20px;
+    line-height: 1;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top:0;
+			right:50px;
+			height:100%;
+			border-left-style: solid;
+			border-width:2px;
+		}
+
+		&:after{
+			content: '\e613';
+			font-family: 'icomoon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+			position: absolute;
+      top:50%;
+      margin-top:-8px;
+      right:17px;
+
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     }
+	}
+
+	&.left-arrow:after{
+		content: '\e613';
+	}
+
+	&.left-pointer:after{
+		content: '\e616';
+	}
+
+	&.right-arrow:after{
+		content: '\e618';
+	}
+
+	&.right-pointer:after{
+		content: '\e619';
+	}
+
+	&.down-arrow:after{
+		content: '\e610';
+	}
+
+	&.down-pointer:after{
+		content: '\e613';
+	}
+
+	&.eye:after{
+		content: '\e60f';
+	}
+
+	&.check:after{
+		content: '\e611';
+	}
+
+  &.cross:after {
+  	content: "\e612";
+  }
+
+	&.trophy:after{
+		content: '\e61a';
+	}
+
+  &.checkmark:after {
+  	content: "\e611";
+  }
+
+	&.lightbulb:after{
+		content: '\e61e';
+	}
+}
+
+.gen-link{
+	color: $cplum;
+	text-decoration: underline;
+
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.white-link,
+p .white-link{
+	color: $white !important;
+	text-decoration: underline;
+
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+
+// General Icon List
+.iconListing{
+	padding: 0;
+	margin: 1rem 0 0 0;
+
+	li{
+		list-style-type: none;
+		font-size: 1.1rem;
+		color: $text;
+
+		.icon{
+			color: lighten($text, 40%);
+			font-size: 1.4rem;
+			vertical-align: text-top;
+			margin-right: 0.2rem;
+
+			&.icon-linkedin{
+				font-size: 1.2rem;
+				margin-right: 0.4rem;
+			}
+		}
+
+		a{
+			text-decoration: none;
+			color: $text;
+			display: block;
+
+			.icon{
+				color: lighten($text, 50%);
+			}
+
+			&:hover{
+				color: $corange;
+			}
+		}
+	}
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+
+.fl-left{
+	float: left;
+}
+
+.fl-right{
+	float: right;
+}
+
+.clearfix{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+/* Small Block Panels with white contents and border padding */
+.panel-block{
+	background: darken($csky, 3.5%);
+	padding: 0.8rem;
+	margin-bottom: 0.8rem;
+	border-bottom: 2px solid darken($white, 20%);
+	@include border-radius(3px);
+
+	.inner {
+  	background: $white;
+  	padding:10px;
+	}
+	.block-img{
+		width: 100%;
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.block-copy{
+		width: 100%;
+
+		.copy-content{
+			h4{
+				margin-bottom: 0;
+			}
+			p{
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
+
+/* Call to action block - such as prompt to join if you are not a member yet */
+.cta-block {
+  h4,p,a {
+    color:$white!important;
+  }
+}
+
+/* Generic Horizontal Tab Block Styles */
+.tab-set {
+  margin-bottom:20px;
+
+  /* Actual tabs at the top */
+  .tabs {
+  	dd {
+  		margin: 0 1% 0 0;
+  		text-align: center;
+  		width: 32%;
+
+
+  		a {
+  			text-decoration: none;
+  			background: lighten($cskydark, 3%);
+  			color: #626f6f;
+  			padding:1rem;
+  			@include border-radius(3px 3px 0 0);
+  			font-size: 0.8rem;
+  			line-height: 1;
+
+  			&:after {
+  				content: '\e615';
+  				font-family: 'icomoon';
+          speak: none;
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          text-transform: none;
+  				margin-left: 0.5rem;
+  				color: #c0c5c5;
+
+          /* Better Font Rendering =========== */
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+       	}
+
+       	&:hover {
+         	background: darken($cskydark, 5%);
+       	}
+  		}
+
+  		&.active {
+
+  			a {
+  				background: $cskydark;
+
+  				&:after {
+  					content: '\e610';
+  				}
+  			}
+  		}
+  	}
+  }
+
+  .tabs-content {
+		background: $cskydark;
+		@include border-radius(0 0 3px 3px);
+		padding: 1rem;
+
+		&.tabs-content {
+			margin-bottom: 0;
+		}
+
+		&.tabs-content .content {
+
+		}
+  }
+
+}
+
+
+
+.accordion{
+
+	.accordion-title{
+		background: $lgrey;
+		cursor: pointer;
+		padding: 0.7rem;
+		margin: 0;
+		position: relative;
+
+		&:after {
+			content: '\e615';
+			font-family: 'icomoon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+			margin-left: 0.5rem;
+			color: #c0c5c5;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			margin-top: -15px;
+
+
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+   	}
+	}
+
+	.accordion-content{
+		background: $lgrey;
+		padding: 0.7rem;
+		font-size: 1rem;
+	}
+}
+
+
+@media (min-width: $screen-md-min) {
+
+  .gen-btn{
+  	display: inline-block;
+  }
+
+  .panel-block{
+  	padding: 1rem;
+  	margin-bottom: 1.5rem;
+
+  	.block-img{
+  		width: 30%;
+  		float: left;
+
+  		img{
+  		}
+  	}
+
+  	.block-copy{
+  		width: 68%;
+  		margin-left: 2%;
+  		float: left;
+
+  		.copy-content{
+  			width:70%;
+  			float: left;
+
+  			h4{
+  				font-size: 1.2rem;
+  				margin-bottom: 0.5rem;
+  			}
+  			p{
+  				font-size: 1rem;
+  			}
+  		}
+
+  		.block-edit{
+  			width: 20%;
+  			text-align: center;
+  			float: right;
+  			border-left: 4px dotted darken($lgrey, 20%);
+
+  			a{
+  				display: block;
+  				width: 100%;
+  				background: transparent;
+  				border-bottom: 0;
+  				padding: 1rem 0;
+  				font-size: 2rem;
+  			}
+  		}
+  	}
+
+  	&:after{
+  		content: '';
+  		display: block;
+  		clear: both;
+  	}
+
+  	&.newsletters{
+  		padding: 2rem;
+
+  		.block-copy{
+  			margin-left: 0 !important;
+  			width: 100%;
+
+  			h4{
+  				font-weight: 400;
+  				font-size: 1.6rem;
+  				margin: 0;
+  			}
+
+  			p{
+  				font-size: 1.2rem;
+
+  				&.date{
+  					font-size: 1rem;
+  				}
+  			}
+
+  			.copy-content{
+
+  			}
+  		}
+  	}
+  }
+
+  .tab-set {
+
+	  /* Actual tabs at the top */
+	  .tabs {
+
+	  	dd {
+
+	  		a {
+  				font-size: 1rem;
+  				line-height: 1.5;
+				}
+			}
+  	}
+  }
+
+  .accordion{
+
+		.accordion-title{
+			padding: 1rem;
+		}
+
+		.accordion-content{
+			padding: 1rem;
+			font-size: 1.2rem;
+		}
+	}
+}
+
+
+// Email download panel
+
+.email-download-block{
+	background: $cpurple;
+	margin-bottom: 1rem;
+	@include border-radius(3px);
+	// border-bottom: 1px solid darken($white, 10%);
+
+	.download-text{
+		padding: 1.5rem;
+
+		.icon-download{
+			color: #905b7c;
+			font-size: 3rem;
+		}
+
+		h4{
+			margin: 0;
+			color: $white;
+			font-weight: 400;
+			font-size: 1.4rem;
+		}
+	}
+
+	#email-download-form{
+		width: 100%;
+
+		.download-label{
+			display: none;
+		}
+		.download-input{
+			width: 100%;
+			height: 60px;
+			height: 60px;
+			padding: 20px;
+			font-size: 0.9rem;
+			border: none;
+			//background: darken($cpurple, 10%);
+			background: $white;
+			border: 2px solid $cpurple;
+			@include transition(all, 0.2s, ease-in-out);
+			outline: none;
+			font-family: $body-font;
+			font-size: 1rem;
+
+			@include placeholder {
+		   //  font-style: italic;
+			}
+
+			&:focus{
+				background: darken($white, 5%);
+				color: darken($cpurple, 10%);
+			}
+		}
+	}
+}
+
+
+// FAQs accordian panel
+.qa-faqs{
+
+	.qa-faq{
+		// background: $lgrey;
+		// margin-bottom: 1rem;
+		border-bottom: 1px solid darken($lgrey, 10%);
+
+		a{
+			color: $cpurple;
+
+			&:hover{
+				text-decoration: none;
+			}
+		}
+
+		.qa-faq-title{
+
+			a{
+				width: 100%;
+				display: block;
+				padding: 0 2%;
+				text-decoration: none;
+				color: $grey;
+
+				&:after {
+					content: '\e60f';
+					font-family: 'icomoon';
+	        speak: none;
+	        font-style: normal;
+	        font-weight: normal;
+	        font-variant: normal;
+	        text-transform: none;
+	        float: right;
+
+	        /* Better Font Rendering =========== */
+	        -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+	     	}
+			}
+		}
+
+		.qa-faq-answer{
+			//border-top: 1px solid darken($lgrey, 10%);
+
+			ul{
+				padding: 0;
+				margin: 2rem 1rem;
+
+				li{
+
+				}
+			}
+		}
+	}
+
+
+}
+
+@media (min-width: $screen-lg-min) {
+
+	body{
+
+		.gen-btn{
+			padding: 0.7rem 3.0rem;
+		}
+	}
+}
